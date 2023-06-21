@@ -20,18 +20,6 @@ escreva_o_selector “espaço” :attr(escreva o atributo)
 5) Quando precisar extrair o texto de um código com src ou href utilizar:
 escreva_o_selector “espaço” :text
 
-### 
-
-
-
-6) Extraindo texto de um vetor
-.escreva_a_class:nth-child(escreva_o_vetor)
- 
-Extraindo atributos de um vetor
-.escreva_a_class:nth-child(escreva_o_vetor) “espaço” :attr(escreva o atributo)
-![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/a090586b-0793-41a7-9f95-65d230981904)
-
-
 ### Filho mais proximo
 "Filho" é o que está dentro da Tag.
 A Tag é aberta com "<>" e fechada com "</>", exemplo <li></li>
@@ -62,3 +50,16 @@ Exemplo do item 7 e 8:
 - O seletor `div ul` vai retornar as 2 `UL`.
 - O seletor `div > ul` só vai pegar o `UL` que é filho direto da `DIV`. 
 - O seletor `div > span > ul` vai pegar o `UL` de dentro do `SPAN`, porque o `UL` é filho direto do `SPAN`, que é filho direto do `DIV`
+
+  ### Vetores
+
+  ### 
+
+
+
+6) Extraindo texto de um vetor
+.escreva_a_class:nth-child(escreva_o_vetor)
+ 
+Extraindo atributos de um vetor
+.escreva_a_class:nth-child(escreva_o_vetor) “espaço” :attr(escreva o atributo)
+![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/a090586b-0793-41a7-9f95-65d230981904)
