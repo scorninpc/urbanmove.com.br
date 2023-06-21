@@ -101,9 +101,9 @@ O seletor `div ul a:nth-child(3)` não pegará o terceiro `A`, os `A` que estão
 ### Busca de Texto na Página
 Em muitos sites os seletores não são utilizados para indexar a informação, mas apenas a formatação como no exemplo:
 
-```<div class="text-2xl font-bold uppercase text-zinc-700 dark:text-zinc-200">
+`<div class="text-2xl font-bold uppercase text-zinc-700 dark:text-zinc-200">
 Pinhais
-</div>````
+</div>`
 
  ### Utilizando o Parenting
 
