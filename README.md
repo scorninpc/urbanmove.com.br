@@ -116,11 +116,9 @@ Para capturar o texto "Data", podemos utilizar `.card-action-item-text`, para ir
 
 Neste mesmo exemplo para capturar preço a partir da class da "Data". Podemos utilizar 
 
-`.card-action-item-text :parent():parent() > span` ou
+`.card-action-item-text :parent :parent > span` ou
 
-`.card-action-item-text :parent():nth-child(2) > span` ou
-
-`.card-action-item-text :parent():nth-child(2) span:nth-child(3)`
+`.card-action-item-text :parent :parent span:nth-child(3)`
 
 ### Busca de Texto na Página
 13) Podemos utilizar o exemplo acima para demonstar o uso do `contains`.
@@ -139,13 +137,15 @@ Neste mesmo exemplo para capturar preço a partir da class da "Data". Podemos ut
 
 
 
+ ### Exemplos
 
 
 
+<li class="splide__slide border-0 is-visible" id="thumbnail-carousel-slide04" role="button" aria-label="Go to slide 4" style="margin-right: 5px; width: 80px; height: 50px;" aria-controls="main-carousel-slide04" tabindex="0">
+<img class="dark:border-none" src="https://static.amleiloeiro.com.br/amleiloeiro/lote/20867/fotos/foto_thumb_ZiJsBQ5gM88c80qjK5cIgU9IiP7zuXwD2170kTlDXw0DWboWtoTOvC7sVG9X.png" alt="Imagem">
+</li>
 
-
-
-
+<img class="dark:border-none" src="https://static.amleiloeiro.com.br/amleiloeiro/lote/20867/fotos/foto_thumb_ZiJsBQ5gM88c80qjK5cIgU9IiP7zuXwD2170kTlDXw0DWboWtoTOvC7sVG9X.png" alt="Imagem">
 
 
 
