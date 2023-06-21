@@ -20,7 +20,7 @@ escreva_o_selector “espaço” :attr(escreva o atributo)
 5) Quando precisar extrair o texto de um código com src ou href utilizar:
 escreva_o_selector “espaço” :text
 
-### Filho mais proximo
+### Conceito de Filho
 "Filho" é o que está dentro da Tag.
 A Tag é aberta com "<>" e fechada com "</>", exemplo <li></li>
 
@@ -52,14 +52,58 @@ Exemplo do item 7 e 8:
 - O seletor `div > span > ul` vai pegar o `UL` de dentro do `SPAN`, porque o `UL` é filho direto do `SPAN`, que é filho direto do `DIV`
 
   ### Vetores
+  Quando existir mais de um resultado para a busca, deve ser indicado qual o item que se deseja bucar, o 1º, 2º...
+  Para isso deve ser utilizado o :nth-child(escreva_a_posição) após a classe, id, tag desejado, como abaixo
 
-  ### 
-
-
-
-6) Extraindo texto de um vetor
-.escreva_a_class:nth-child(escreva_o_vetor)
+9) Extraindo texto de um vetor
+.escreva_a_class:nth-child(escreva_a_posição)
  
-Extraindo atributos de um vetor
-.escreva_a_class:nth-child(escreva_o_vetor) “espaço” :attr(escreva o atributo)
-![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/a090586b-0793-41a7-9f95-65d230981904)
+10) Extraindo atributos de um vetor
+.escreva_a_class:nth-child(escreva_a_posição) “espaço” :attr(escreva o atributo)
+
+Exemplos de vetores :
+    
+```html
+<div>
+    <span>  
+        <ul> "Filho direto do span"
+            <li>
+                <a></a>
+            </li>
+        </ul>
+    </span>
+    
+    <ul> "Filho direto da div"
+        <li>
+            <a></a>
+            <a></a>
+        </li>
+    </ul>
+     <ul>
+        <a></a>
+        <a></a>
+        <a></a>
+    </ul>
+</div>
+```
+
+O seletor `div ul` vai retornar as 3 `UL`.
+- O seletor `div ul.:nth-child(1)` vai retornar a primeira `UL`
+- O seletor `div ul.:nth-child(2)` vai retornar a segunda `UL`
+
+O seletor `div > ul` só vai pegar as duas `UL` que são filhos direto da `DIV`.
+- Neste caso o seletor `div > ul.:nth-child(1)` vai retornar a segunda `UL`
+- E o seletor `div > ul:nth-child(2)` vai retornar a terceira `UL`
+
+O seletor `div a` vai pegar as seis `A` que estão dentro da `DIV`.
+O seletor `div ul a` continua pegando as seis `A` que estão dentro das `UL` `DIV`.
+
+11) No exemplo acima se atentar ao caso:
+O seletor `div ul a:nth-child(3)` não pegará o terceiro `A`, os `A` que estão dentro das `UL` que não possuem 3 `A` são ignorados, nesse caso só será retornado o terceiro `A`das `UL` com 3 `A`, nesse caso, apenas a terceira `UL` possui 3 `A`, então será retornado o último `A`.
+
+ ### Busca de Texto na Página
+
+ ### Utilizando o Parenting
+
+ ### Utilizando o Find
+
