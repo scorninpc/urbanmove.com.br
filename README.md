@@ -10,25 +10,16 @@ O simbolo `>` pega o filho mais proximo. Por exemplo:
 
 ```html
 <div>
-	<span>
-		<ul>
-			<li></li>
-		</ul>
-	</span>
-	<ul>
-		<li>
-			<a></a>
-		</li>
-		<li>
-			<a></a>
-		</li>
-		<li>
-			<a></a>
-		</li>
-		<li>
-			<a></a>
-		</li>
-	</ul>
+    <span>
+        <ul>
+            <li></li>
+        </ul>
+    </span>
+    <ul>
+        <li>
+            <a></a>
+        </li>
+    </ul>
 </div>
 ```
 
