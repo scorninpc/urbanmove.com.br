@@ -1,10 +1,11 @@
 # Documentação
 ## Padrão de Dúvida
 
-###Título:
+### Título:
+
 Escrever o nome do leiloeiro
 
-###Texto:
+### Texto:
 
 1) Escrever a URL em que está sendo feito o teste
     
