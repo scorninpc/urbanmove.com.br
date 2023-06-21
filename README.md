@@ -125,11 +125,16 @@ Para capturar o texto "Data", podemos utilizar `.card-action-item-text`, para ir
 
 Neste mesmo exemplo para capturar preço a partir da class da "Data". Podemos utilizar 
 
-`.card-action-item-text:parent:parent > span` ou
-
-`.card-action-item-text :parent :parent span:nth-child(3)`
+> O exemplo abaixo não deu certo, mas deveria ter dado
+>`.card-action-item-text:parent:parent > span`
+> O que deu certo foi:
+> `.card-action-item-text:parent:parent:parent li:nth-child(2) > span`
 
 ### Busca de Texto na Página
+> Daqui para baixo em implementação
+>
+> 
+
 13) Podemos ancorar nossa busca a uma palavra com o uso do `contains`, no exemplo acima, poderíamos buscar o seletor que contém a palavra "Data" utilizando:
 `span:contains('Data')`
 
@@ -144,11 +149,6 @@ Se for a segunda vez que o texto "Data" aparece dentro do código
 Definir como faremos na plataforma
 
 ![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/0b7becce-95c2-4cfa-becc-019afc8f50af)
-
-
-
-
-
 
 
  ### Exemplos
