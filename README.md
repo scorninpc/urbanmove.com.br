@@ -17,15 +17,16 @@ Escrever o nome do leiloeiro
 2) Escrever as observações, exemplo:
 
    Observação 01: O preço está com a data
+
    Observação 02: O endereço está na descrição
 
    
-3) Escrever os erros com as variável que não funcionou e o que você tentou, exmeplo:
+4) Escrever os erros com as variável que não funcionou e o que você tentou, exmeplo:
     
    Erro 01: Documento01:.dg-lote-documentos-downloads
 
 
-4) Print da tela em que buscou a informação
+5) Print da tela em que buscou a informação
 
     Erro 01:    
 ![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/9c4d9a49-9dcd-4535-8828-5a9c476fe1f9)
