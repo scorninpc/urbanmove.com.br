@@ -132,8 +132,8 @@ Se for a segunda vez que o texto "Data" aparece dentro do código
 
 
  ### Utilizando o Find
-
-
+Definir como faremos na plataforma
+![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/0b7becce-95c2-4cfa-becc-019afc8f50af)
 
 
 
@@ -144,16 +144,13 @@ Se for a segunda vez que o texto "Data" aparece dentro do código
  ### Exemplos
 
 
-
+```html
 <li class="splide__slide border-0 is-visible" id="thumbnail-carousel-slide04" role="button" aria-label="Go to slide 4" style="margin-right: 5px; width: 80px; height: 50px;" aria-controls="main-carousel-slide04" tabindex="0">
 <img class="dark:border-none" src="https://static.amleiloeiro.com.br/amleiloeiro/lote/20867/fotos/foto_thumb_ZiJsBQ5gM88c80qjK5cIgU9IiP7zuXwD2170kTlDXw0DWboWtoTOvC7sVG9X.png" alt="Imagem">
 </li>
 
 <img class="dark:border-none" src="https://static.amleiloeiro.com.br/amleiloeiro/lote/20867/fotos/foto_thumb_ZiJsBQ5gM88c80qjK5cIgU9IiP7zuXwD2170kTlDXw0DWboWtoTOvC7sVG9X.png" alt="Imagem">
-
-
-
-
+```
 
 Em muitos sites os seletores não são utilizados para indexar a informação, mas apenas a formatação como no exemplo:
 
