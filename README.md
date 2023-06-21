@@ -4,29 +4,26 @@
 
 ### Básico
 
-1) Extraindo texto de uma class
-.escreva_a_class
+1) Extraindo texto de uma class: `.escreva_a_class`
+
+2) Extraindo texto de um id: `#escreva_o_ID`
  
-2) Extraindo texto de um id
-#escreva_o_ID
- 
-3) Extraindo texto de um tag
-escreva_o_Tag
+3) Extraindo texto de um tag: `escreva_o_Tag`
  
 4) Extraindo Atributo do selector
 Os atributos src e href são capturados automaticamente, para os demais utilizar:
-escreva_o_selector “espaço” :attr(escreva o atributo)
+`escreva_o_selector “espaço” :attr(escreva o atributo)`
 
 5) Quando precisar extrair o texto de um código com src ou href utilizar:
-escreva_o_selector “espaço” :text
+`escreva_o_selector “espaço” :text`
 
 ### Conceito de Filho
 "Filho" é o que está dentro da Tag.
 A Tag é aberta com `<>` e fechada com `</>`, exemplo `<li></li>` 
 
-7) Quando no comando de busca é utilizado o simbolo ">", com em `div > span > ul`, ele busca o filho que está ligado diretamente ao "Pai", ou seja ele vai procurar diretamente o ul, ligado ao spans ligado ao div.
+7) Quando no comando de busca é utilizado o simbolo `>`, com em `div > span > ul`, ele busca o filho que está ligado diretamente ao "Pai", ou seja ele vai procurar diretamente o `ul`, ligado ao `span` ligado ao `div`.
 
-8) Quando no comando de busca NÃO é utilizado o simbolo ">", com em `div span ul`, ele busca em tudo dentro do pai, ou seja ele vai procurar todos os ul que estejam dentro de qualquer span dentro do div, ou seja o span não precisa estar diretamente ligado ao Div, e o ul não necessáriamente ligado ao span.
+8) Quando no comando de busca NÃO é utilizado o simbolo `>`, com em `div span ul`, ele busca em tudo dentro do pai, ou seja ele vai procurar todos os `ul` que estejam dentro de qualquer `span` dentro do `div`, ou seja o `span` não precisa estar diretamente ligado ao `div`, e o `ul` não necessáriamente ligado ao `span`.
 
 Exemplo do item 7 e 8: 
 
@@ -53,13 +50,13 @@ Exemplo do item 7 e 8:
 
   ### Vetores
   Quando existir mais de um resultado para a busca, deve ser indicado qual o item que se deseja bucar, o 1º, 2º...
-  Para isso deve ser utilizado o :nth-child(escreva_a_posição) após a classe, id, tag desejado, como abaixo
+  Para isso deve ser utilizado o `:nth-child(escreva_a_posição)` após a `classe`, `id`, `tag` desejado, como abaixo
 
 9) Extraindo texto de um vetor
-.escreva_a_class:nth-child(escreva_a_posição)
+`.escreva_a_class:nth-child(escreva_a_posição)`
  
 10) Extraindo atributos de um vetor
-.escreva_a_class:nth-child(escreva_a_posição) “espaço” :attr(escreva o atributo)
+`.escreva_a_class:nth-child(escreva_a_posição) “espaço” :attr(escreva o atributo)`
 
 Exemplos de vetores :
     
