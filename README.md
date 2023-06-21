@@ -98,9 +98,10 @@ O seletor `div > ul:nth-child(2) a` pegará o `A` que estão dentro da segunda `
 O seletor `div > ul:nth-child(2) a:nth-child(3)` pegará o terceiro `A` que está dentro da segunda `UL` filha direta da `div`.
 
 >!!!Confirmar, acho que não se aplica
+>
 >11) No exemplo acima se atentar ao caso:
 >    O seletor `div ul a:nth-child(3)` não pegará o terceiro `A`, os `A` que estão dentro das `UL` que não possuem 3 `A` são ignorados, >     nesse caso só será retornado o terceiro `A`das `UL` com 3 `A`, nesse caso, apenas a terceira `UL` possui 3 `A`, então será        >      retornado o último `A`.
-
+>
 >!!!Confirmar
 >-  O seletor `div ul` vai retornar as 3 `UL`.
 >- O seletor `div ul:nth-child(1)` vai retornar a primeira `UL`
