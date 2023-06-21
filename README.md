@@ -21,7 +21,7 @@ escreva_o_selector “espaço” :attr(escreva o atributo)
 escreva_o_selector “espaço” :text
 
 ### Conceito de Filho
-Filho é o que está dentro da Tag.
+"Filho" é o que está dentro da Tag.
 A Tag é aberta com "<>" e fechada com "</>", exemplo <li></li>
 
 7) Quando no comando de busca é utilizado o simbolo ">", com em `div > span > ul`, ele busca o filho que está ligado diretamente ao "Pai", ou seja ele vai procurar diretamente o ul, ligado ao spans ligado ao div.
