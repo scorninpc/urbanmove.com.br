@@ -89,7 +89,7 @@ O seletor `div ul` vai retornar as 3 `UL`.
 - O seletor `div ul.:nth-child(2)` vai retornar a segunda `UL`
 
 O seletor `div > ul` só vai pegar as duas `UL` que são filhos direto da `DIV`.
-- Neste caso o seletor `div > ul.:nth-child(1)` vai retornar a segunda `UL`
+- Neste caso o seletor `div > ul:nth-child(1)` vai retornar a segunda `UL`
 - E o seletor `div > ul:nth-child(2)` vai retornar a terceira `UL`
 
 O seletor `div a` vai pegar as seis `A` que estão dentro da `DIV`.
