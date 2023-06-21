@@ -96,12 +96,14 @@ O seletor `div a` vai pegar as seis `A` que estão dentro da `DIV`.
 O seletor `div ul a` continua pegando as seis `A` que estão dentro das `UL` `DIV`.
 
 11) No exemplo acima se atentar ao caso:
-    O seletor `div ul a:nth-child(3)` não pegará o terceiro `A`, os `A` que estão dentro das `UL` que não possuem 3 `A` são ignorados,      nesse caso só será retornado o terceiro `A`das `UL` com 3 `A`, nesse caso, apenas a terceira `UL` possui 3 `A`, então será              retornado     o último `A`.
+    O seletor `div ul a:nth-child(3)` não pegará o terceiro `A`, os `A` que estão dentro das `UL` que não possuem 3 `A` são ignorados,      nesse caso só será retornado o terceiro `A`das `UL` com 3 `A`, nesse caso, apenas a terceira `UL` possui 3 `A`, então será              retornado o último `A`.
+
+ ### Utilizando o Parenting
+
+ ### Utilizando o Find
 
 ### Busca de Texto na Página
 Em muitos sites os seletores não são utilizados para indexar a informação, mas apenas a formatação como no exemplo:
-
-![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/f1c20e41-658d-4d41-b380-0a7fab259528)
 
 ```html
 <div x-data="{ open: true }" class="mx-2 mt-4 grow-0 rounded-md bg-white p-2 shadow-sm shadow-zinc-200 dark:bg-zinc-800 dark:shadow-zinc-900 md:mx-0">
@@ -128,10 +130,27 @@ Em muitos sites os seletores não são utilizados para indexar a informação, m
 </div>
 </div>
 ```
+Neste caso acima, a class dos elementos sempre fazem referência a formatação e não devem ser utilizadas, por inúmeros motivos.
+Olhando a página, dá pra perceber que se trata de um "bloco" 
+
+![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/bbc5860a-1f4c-486e-831f-eb96112889d4)
+
+Composto por um cabeçalho
+
+![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/b469ee10-6b6b-4f71-9510-9de107debe78)
+
+E um texto 
+
+![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/e9489b61-02ec-4d05-a887-ad41d9eb1342)
+
+Como não temos referências para ancorar nossa busca, podemos utilizar o recurso `contains`.
+Ele busca um trecho de texto dentro do código e ancora nossa busca a este seletor.
+A sintaxe deve ser `tag:contains('Palavra buscada')
+
+Exemplo:
 
 
 
- ### Utilizando o Parenting
 
- ### Utilizando o Find
+
 
