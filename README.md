@@ -121,10 +121,14 @@ Neste mesmo exemplo para capturar preço a partir da class da "Data". Podemos ut
 `.card-action-item-text :parent :parent span:nth-child(3)`
 
 ### Busca de Texto na Página
-13) Podemos utilizar o exemplo acima para demonstar o uso do `contains`.
-    
+13) Podemos ancorar nossa busca a uma palavra com o uso do `contains`, no exemplo acima, poderíamos buscar o seletor que contém a palavra "Data" utilizando:
+`span:contains('Data')`
 
+Se eu quiser capturar o preço a partir da palavra "Data"
+`span:contains('Data') :parent :parent > span`
 
+Se for a segunda vez que o texto "Data" aparece dentro do código
+`span:contains('Data'):nth-child(2)`    
 
 
  ### Utilizando o Find
