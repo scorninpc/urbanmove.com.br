@@ -116,7 +116,7 @@ Para capturar o texto "Data", podemos utilizar `.card-action-item-text`, para ir
 
 Neste mesmo exemplo para capturar preço a partir da class da "Data". Podemos utilizar 
 
-`.card-action-item-text :parent :parent > span` ou
+`.card-action-item-text:parent:parent > span` ou
 
 `.card-action-item-text :parent :parent span:nth-child(3)`
 
