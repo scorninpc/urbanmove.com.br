@@ -45,6 +45,7 @@ Exemplo do item 7 e 8:
 ```
 
 - O seletor `div ul` vai retornar as 2 `UL`.
+      !!!Confirmar se não pega apenas as de dentro do primeiro elemento que é a `ul` parece que está assim
 - O seletor `div > ul` só vai pegar o `UL` que é filho direto da `DIV`. 
 - O seletor `div > span > ul` vai pegar o `UL` de dentro do `SPAN`, porque o `UL` é filho direto do `SPAN`, que é filho direto do `DIV`
 
