@@ -45,8 +45,7 @@ Exemplo do item 7 e 8:
 ```
 
 - O seletor `div ul` vai retornar as 2 `UL`.
-  
-      !!!Confirmar se não pega apenas as de dentro do primeiro elemento que é a `ul` parece que está assim
+     >!!!Confirmar se não pega apenas as de dentro do primeiro elemento que é a `ul` parece que está assim
 - O seletor `div > ul` só vai pegar o `UL` que é filho direto da `DIV`. 
 - O seletor `div > span > ul` vai pegar o `UL` de dentro do `SPAN`, porque o `UL` é filho direto do `SPAN`, que é filho direto do `DIV`
 
@@ -78,29 +77,34 @@ Exemplos de vetores :
             <a></a>
         </li>
     </ul>
-     <ul>
+    <ul>
         <a></a>
         <a></a>
         <a></a>
     </ul>
 </div>
 ```
-  
-  !!!Confirmar
 
-> O seletor `div ul` vai retornar as 3 `UL`.
-> - O seletor `div ul:nth-child(1)` vai retornar a primeira `UL`
-> - O seletor `div ul:nth-child(2)` vai retornar a segunda `UL`
+- O seletor `div ul` vai retornar as `UL` dentro do primeiro elemento, ou seja o  "Filho direto do span"
 
-O seletor `div > ul` só vai pegar as duas `UL` que são filhos direto da `DIV`.
+  O seletor `div > ul` só vai pegar as duas `UL` que são filhos direto da `DIV`.
 - Neste caso o seletor `div > ul:nth-child(1)` vai retornar a segunda `UL`
 - E o seletor `div > ul:nth-child(2)` vai retornar a terceira `UL`
 
-O seletor `div a` vai pegar as seis `A` que estão dentro da `DIV`.
-O seletor `div ul a` continua pegando as seis `A` que estão dentro das `UL` `DIV`.
+O seletor `div a` vai pegar apenas `A` que estão dentro do primeiro elemento da `DIV`, o `span`.
+O seletor `div ul a` continua pegando o `A` que estão dentro do `span` `UL`.
+O seletor `div > ul a` pegará o `A` que estão dentro da `UL` filha direta da `div`.
+O seletor `div > ul:nth-child(2) a` pegará o `A` que estão dentro da segunda `UL` filha direta da `div`.
+O seletor `div > ul:nth-child(2) a:nth-child(3)` pegará o terceiro `A` que está dentro da segunda `UL` filha direta da `div`.
 
-11) No exemplo acima se atentar ao caso:
-    O seletor `div ul a:nth-child(3)` não pegará o terceiro `A`, os `A` que estão dentro das `UL` que não possuem 3 `A` são ignorados,      nesse caso só será retornado o terceiro `A`das `UL` com 3 `A`, nesse caso, apenas a terceira `UL` possui 3 `A`, então será              retornado o último `A`.
+>!!!Confirmar, acho que não se aplica
+>11) No exemplo acima se atentar ao caso:
+>    O seletor `div ul a:nth-child(3)` não pegará o terceiro `A`, os `A` que estão dentro das `UL` que não possuem 3 `A` são ignorados, >     nesse caso só será retornado o terceiro `A`das `UL` com 3 `A`, nesse caso, apenas a terceira `UL` possui 3 `A`, então será        >      retornado o último `A`.
+
+>!!!Confirmar
+>-  O seletor `div ul` vai retornar as 3 `UL`.
+>- O seletor `div ul:nth-child(1)` vai retornar a primeira `UL`
+>- O seletor `div ul:nth-child(2)` vai retornar a segunda `UL`
 
  ### Utilizando o Parenting
  
