@@ -115,8 +115,11 @@ O seletor `div ul a` continua pegando as seis `A` que estão dentro das `UL` `DI
 Para capturar o texto "Data", podemos utilizar `.card-action-item-text`, para irmos para o seletor acima dele, o `card-action-item-content`, podemos escrever `.card-action-item-content` ou utilizar `.card-action-item-text :parent()`, muitas vezes essa será a única solução para capturarmos elementos.
 
 Neste mesmo exemplo para capturar preço a partir da class da "Data". Podemos utilizar 
+
 `.card-action-item-text :parent():parent() > span` ou
+
 `.card-action-item-text :parent():nth-child(2) > span` ou
+
 `.card-action-item-text :parent():nth-child(2) span:nth-child(3)`
 
 ### Busca de Texto na Página
