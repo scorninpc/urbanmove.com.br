@@ -73,8 +73,7 @@ Exemplo do item 7 e 8:
 </div>
 ```
 
-- O seletor `div ul` vai retornar as 2 `UL`.
-     >!!!Confirmar se não pega apenas as de dentro do primeiro elemento que é a `ul` parece que está assim
+- O seletor `div ul` vai retornar a `UL` dentro do primeiro elemento que é o "Filho direto do span"
 - O seletor `div > ul` só vai pegar o `UL` que é filho direto da `DIV`. 
 - O seletor `div > span > ul` vai pegar o `UL` de dentro do `SPAN`, porque o `UL` é filho direto do `SPAN`, que é filho direto do `DIV`
 
@@ -148,12 +147,9 @@ Neste mesmo exemplo para capturar preço a partir da class da "Data". Podemos ut
 
 
 ### Busca de Texto na Página
-> Daqui para baixo em implementação
->
-> 
 
 13) Podemos ancorar nossa busca a uma palavra com o uso do `contains`, no exemplo acima, poderíamos buscar o seletor que contém a palavra "Data" utilizando:
-`span:contains('Data')`
+`span:contains("Data")`, pode ser que tenha outros spans com a palavra Data, então é recomendado se posível indicar algum id ou class antes, como `.card-action-item span:contains("Data")`
 
 Se eu quiser capturar o preço a partir da palavra "Data"
 `span:contains('Data') :parent :parent > span`
@@ -165,7 +161,9 @@ Se for a segunda vez que o texto "Data" aparece dentro do código
 
  ### Exemplos
 
+> Finalizar
 
+```
 ```html
 <li class="splide__slide border-0 is-visible" id="thumbnail-carousel-slide04" role="button" aria-label="Go to slide 4" style="margin-right: 5px; width: 80px; height: 50px;" aria-controls="main-carousel-slide04" tabindex="0">
 <img class="dark:border-none" src="https://static.amleiloeiro.com.br/amleiloeiro/lote/20867/fotos/foto_thumb_ZiJsBQ5gM88c80qjK5cIgU9IiP7zuXwD2170kTlDXw0DWboWtoTOvC7sVG9X.png" alt="Imagem">
@@ -219,7 +217,7 @@ Ele busca um trecho de texto dentro do código e ancora nossa busca a este selet
 A sintaxe deve ser `tag:contains('Palavra buscada')
 
 Exemplo:
-
+```
 
 
 
