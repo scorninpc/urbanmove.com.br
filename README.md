@@ -126,15 +126,6 @@ O seletor `div > ul a` pegará o `A` que estão dentro da `UL` filha direta da `
 O seletor `div > ul:nth-child(2) a` pegará o `A` que estão dentro da segunda `UL` filha direta da `div`.
 O seletor `div > ul:nth-child(2) a:nth-child(3)` pegará o terceiro `A` que está dentro da segunda `UL` filha direta da `div`.
 
->!!!Confirmar, acho que não se aplica
->
->11) No exemplo acima se atentar ao caso:
->    O seletor `div ul a:nth-child(3)` não pegará o terceiro `A`, os `A` que estão dentro das `UL` que não possuem 3 `A` são ignorados, >     nesse caso só será retornado o terceiro `A`das `UL` com 3 `A`, nesse caso, apenas a terceira `UL` possui 3 `A`, então será        >      retornado o último `A`.
->
->!!!Confirmar
->-  O seletor `div ul` vai retornar as 3 `UL`.
->- O seletor `div ul:nth-child(1)` vai retornar a primeira `UL`
->- O seletor `div ul:nth-child(2)` vai retornar a segunda `UL`
 
  ### Utilizando o Parenting
  
@@ -153,11 +144,8 @@ O seletor `div > ul:nth-child(2) a:nth-child(3)` pegará o terceiro `A` que est�
 Para capturar o texto "Data", podemos utilizar `.card-action-item-text`, para irmos para o seletor acima dele, o `card-action-item-content`, podemos escrever `.card-action-item-content` ou utilizar `.card-action-item-text :parent()`, muitas vezes essa será a única solução para capturarmos elementos.
 
 Neste mesmo exemplo para capturar preço a partir da class da "Data". Podemos utilizar 
+`.card-action-item-text:parent:parent > span`
 
-> O exemplo abaixo não deu certo, mas deveria ter dado
->`.card-action-item-text:parent:parent > span`
-> O que deu certo foi:
-> `.card-action-item-text:parent:parent:parent li:nth-child(2) > span`
 
 ### Busca de Texto na Página
 > Daqui para baixo em implementação
