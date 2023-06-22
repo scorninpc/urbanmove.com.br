@@ -174,11 +174,6 @@ Se for a segunda vez que o texto "Data" aparece dentro do código
 `span:contains('Data'):nth-child(2)`    
 
 
- ### Utilizando o Find
-Definir como faremos na plataforma
-
-![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/0b7becce-95c2-4cfa-becc-019afc8f50af)
-
 
  ### Exemplos
 
