@@ -140,7 +140,7 @@ O seletor `div > ul:nth-child(2) a:nth-child(3)` pegará o terceiro `A` que est�
           </li>
 ```
 12) Neste exemplo acima é fácil capturar os elementos, pois todos tem class, então fica fácil para explicar o conceito de "pai" ou "parent".
-Para capturar o texto "Data", podemos utilizar `.card-action-item-text`, para irmos para o seletor acima dele, o `card-action-item-content`, podemos escrever `.card-action-item-content` ou utilizar `.card-action-item-text:parent()`, muitas vezes essa será a única solução para capturarmos elementos.
+Para capturar o texto "Data", podemos utilizar `.card-action-item-text`, para irmos para o seletor acima dele, o `card-action-item-content`, podemos escrever `.card-action-item-content` ou utilizar `.card-action-item-text:parent`, muitas vezes essa será a única solução para capturarmos elementos.
 
 Neste mesmo exemplo para capturar preço a partir da class da "Data". Podemos utilizar 
 `.card-action-item-text:parent:parent > span`
