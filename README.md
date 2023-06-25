@@ -2,13 +2,16 @@
 
 ## Tutoriais
 Github: 
+
 Cadastro de sites: 
+
 Comandos Básicos e Conceito de Filho: 
+
 Vetores e Parent: 
+
 Continuação Parent e Contains: 
+
 Exemplo Agostinho Leilões: 
-
-
 
 ## Padrão de Dúvida
 
