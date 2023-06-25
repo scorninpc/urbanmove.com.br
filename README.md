@@ -1,15 +1,15 @@
 # Documentação
 
 ## Tutoriais
-Github: 
+Github: https://youtu.be/cFgAEJdoYO8
 
-Cadastro de sites: 
+Comandos Básicos e Conceito de Filho: https://youtu.be/waQL1z-i66A
 
-Comandos Básicos e Conceito de Filho: 
+Vetores e Parent: https://youtu.be/osQjGJj7FfE
 
-Vetores e Parent: 
+Continuação Parent e Contains: https://youtu.be/G8ee5WAUnkg
 
-Continuação Parent e Contains: 
+Cadastro de sites: https://youtu.be/q2n6GNkcuLE
 
 Exemplo Agostinho Leilões: 
 
