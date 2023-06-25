@@ -126,7 +126,7 @@ O seletor `div > ul:nth-child(2) a` pegará o `A` que estão dentro da segunda `
 O seletor `div > ul:nth-child(2) a:nth-child(3)` pegará o terceiro `A` que está dentro da segunda `UL` filha direta da `div`.
 
 
- ### Utilizando o Parenting
+ ### Utilizando o Parent
  
 ```html
  <li class="card-action-item">
