@@ -152,11 +152,10 @@ Neste mesmo exemplo para capturar preço a partir da class da "Data". Podemos ut
 `span:contains("Data")`, pode ser que tenha outros spans com a palavra Data, então é recomendado se posível indicar algum id ou class antes, como `.card-action-item span:contains("Data")`
 
 Se eu quiser capturar o preço a partir da palavra "Data"
-`span:contains('Data') :parent :parent > span`
+`span:contains("Data"):parent:parent > span`
 
 Se for a segunda vez que o texto "Data" aparece dentro do código
-`span:contains('Data'):nth-child(2)`    
-
+`span:contains("Data"):nth-child(2)`    
 
 
  ### Exemplos
