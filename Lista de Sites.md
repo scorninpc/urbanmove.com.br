@@ -65,7 +65,7 @@ Leiloesjudiciaisrs	www.leiloesjudiciaisrs.com.br
 Spencerleiloes	https://spencerleiloes.com.br/
 
 
-##Gabriel
+## Gabriel
 
 ### Conferido
 
