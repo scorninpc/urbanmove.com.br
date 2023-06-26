@@ -1,13 +1,17 @@
 ### Lista de Sites
 
-##Priscilla
+## Priscilla
 
-Conferido
+# Conferido
 
-Finalizado
+# Finalizado
+
 Brameleiloes	www.brameleiloes.com.br
 
-Em andamento
+vegasleiloes	https://vegasleiloes.com.br/item/4976/detalhes?page=1
+
+# Em andamento
+
 Frazaoleiloes	www.frazaoleiloes.com.br
 
 Jeleiloes	www.jeleiloes.com.br
@@ -21,8 +25,6 @@ resale	https://resale.com.br/imovel/IDR176284
 Gpleiloes	www.gpleiloes.com.br
 
 Centralsuldeleiloes	www.centralsuldeleiloes.com.br
-
-vegasleiloes	https://vegasleiloes.com.br/item/4976/detalhes?page=1
 
 Freitasleiloeiro	www.freitasleiloeiro.com.br
 
@@ -65,11 +67,11 @@ Spencerleiloes	https://spencerleiloes.com.br/
 
 ##Gabriel
 
-Conferido
+# Conferido
 
-Finalizado
+# Finalizado
 
-Em andamento
+# Em andamento
 
 Webleiloes	www.webleiloes.com.br
 
