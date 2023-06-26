@@ -15,6 +15,9 @@ Exemplo Agostinho Leilões: https://youtu.be/tGqahpgznCw
 
 Exemplo OA Leilões: https://youtu.be/m5yuQJqXyPM
 
+Errata:
+Para buscar um segundo elemento com o contains, está sendo implementado o :next(), o :nth-child() como foi dito no vídeo não funciona
+
 ## Padrão de Dúvida
 
 ### Título:
@@ -171,4 +174,4 @@ Se eu quiser capturar o preço a partir da palavra "Data"
 `span:contains("Data"):parent:parent > span`
 
 Se for a segunda vez que o texto "Data" aparece dentro do código
-`span:contains("Data"):nth-child(2)`    
+`span:contains("Data"):next(2)` Em implementação!!!
