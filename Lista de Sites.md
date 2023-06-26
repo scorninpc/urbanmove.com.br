@@ -1,16 +1,16 @@
-### Lista de Sites
+# Lista de Sites
 
 ## Priscilla
 
-# Conferido
+### Conferido
 
-# Finalizado
+### Finalizado
 
 Brameleiloes	www.brameleiloes.com.br
 
 vegasleiloes	https://vegasleiloes.com.br/item/4976/detalhes?page=1
 
-# Em andamento
+### Em andamento
 
 Frazaoleiloes	www.frazaoleiloes.com.br
 
@@ -67,11 +67,11 @@ Spencerleiloes	https://spencerleiloes.com.br/
 
 ##Gabriel
 
-# Conferido
+### Conferido
 
-# Finalizado
+### Finalizado
 
-# Em andamento
+### Em andamento
 
 Webleiloes	www.webleiloes.com.br
 
