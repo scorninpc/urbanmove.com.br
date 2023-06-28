@@ -175,3 +175,40 @@ Se eu quiser capturar o preço a partir da palavra "Data"
 
 Se for a segunda vez que o texto "Data" aparece dentro do código
 `span:contains("Data"):next(2)` Em implementação!!!
+
+## XPATH
+
+Para selecionar elementos com base em uma classe, substitua "tag" por "*[@class='nome-da-classe']". Por exemplo:
+Para selecionar elementos com a classe "exemplo", use "//*[@class='exemplo']".
+
+Para selecionar elementos com base em um ID, substitua "tag" por "*[@id='nome-do-id']". Por exemplo:
+Para selecionar o elemento com o ID "exemplo", use "//*[@id='exemplo']".
+
+//tag: Seleciona todos os elementos com a tag especificada, independentemente de sua localização no documento.
+//tag[@atributo='valor']: Seleciona elementos com a tag especificada que possuem um atributo com um determinado valor.
+//tag/text(): Retorna o texto contido dentro dos elementos com a tag especificada.
+//tag[contains(text(),'texto')]: Seleciona elementos com a tag especificada que contêm o texto fornecido.
+//tag1/tag2: Seleciona elementos da tag2 que são descendentes diretos da tag1.
+//tag1//tag2: Seleciona elementos da tag2 que são descendentes (diretos ou indiretos) da tag1.
+//tag[position()=n]: Seleciona o n-ésimo elemento da tag especificada.
+//tag[last()]: Seleciona o último elemento da tag especificada.
+//tag1[@attr1='valor1' and @attr2='valor2']: Seleciona elementos com a tag1 que possuem os atributos e valores especificados.
+//tag1 | //tag2: Seleciona elementos da tag1 e da tag2.
+//tag[position()<n]: Seleciona os elementos da tag especificada que estão em uma posição inferior a n.
+//tag[position()>n]: Seleciona os elementos da tag especificada que estão em uma posição superior a n.
+//tag[last()-n]: Seleciona o n-ésimo elemento a partir do último elemento da tag especificada.
+//tag[@attr='valor']/text(): Seleciona o texto contido dentro do elemento com o atributo e valor especificados.
+//tag[@attr='valor']/@atributo: Seleciona o valor do atributo específico dentro do elemento com o atributo e valor especificados.
+//tag[starts-with(@attr, 'valor')]: Seleciona elementos com o atributo especificado que começa com o valor fornecido.
+//tag[ends-with(@attr, 'valor')]: Seleciona elementos com o atributo especificado que termina com o valor fornecido.
+//tag[contains(@attr, 'valor')]: Seleciona elementos com o atributo especificado que contém o valor fornecido.
+//tag[not(@attr)]: Seleciona elementos da tag especificada que não possuem o atributo especificado.
+//tag[@attr='valor1' or @attr='valor2']: Seleciona elementos com a tag especificada que possuem o atributo com um dos valores especificados.
+//tag[@attr1='valor1' and not(@attr2)]: Seleciona elementos com a tag especificada que possuem o atributo1 com o valor1 e não possuem o atributo2.
+//tag[position() mod n = 0]: Seleciona elementos da tag especificada em posições múltiplas de n.
+//tag1/following-sibling::tag2: Seleciona elementos da tag2 que são irmãos seguintes da tag1.
+//tag1/preceding-sibling::tag2: Seleciona elementos da tag2 que são irmãos anteriores da tag1.
+//tag[@attr]/parent::parent::tag2: Seleciona elementos da tag2 que são avós do elemento com o atributo especificado.
+//tag[descendant::tag2]: Seleciona elementos da tag especificada que possuem elementos descendentes da tag2.
+//tag[ancestor::tag2]: Seleciona elementos da tag especificada que possuem elementos ancestrais da tag2.
+//tag[position()=1]/self::tag: Seleciona o primeiro elemento da tag especificada, incluindo a si mesmo.
