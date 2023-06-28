@@ -193,7 +193,7 @@ Se for a segunda vez que o texto "Data" aparece dentro do código
 
 //tag/text(): Retorna o texto contido dentro dos elementos com a tag especificada.
 
-Atributo:
+#### Atributo:
 
 //tag[@atributo='valor']: Seleciona elementos com a tag especificada que possuem um atributo com um determinado valor.
 
@@ -203,7 +203,7 @@ Atributo:
 
 //tag[contains(@attr, 'valor')]: Seleciona elementos com o atributo especificado que contém o valor fornecido.
 
-Elementos próximos:
+#### Elementos próximos:
 
 //tag1/following-sibling::tag2: Seleciona elementos da tag2 que são irmãos seguintes da tag1.
 
@@ -227,7 +227,7 @@ Para selecionar elementos com base em um ID, substitua "tag" por "*[@id='nome-do
 
 Para selecionar o elemento com o ID "exemplo", use "//*[@id='exemplo']".
 
-Exemplos
+#### Exemplos
 
 //*[@class='nome-da-classe'][@atributo='valor']: Seleciona elementos com a classe especificada que também possuem um determinado atributo e valor.
 
