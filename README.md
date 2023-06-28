@@ -177,6 +177,44 @@ Se for a segunda vez que o texto "Data" aparece dentro do código
 `span:contains("Data"):next(2)` Em implementação!!!
 
 ## XPATH
+# Principais Funções
+
+//tag: Seleciona todos os elementos com a tag especificada, independentemente de sua localização no documento.
+
+//tag1/tag2: Seleciona elementos da tag2 que são descendentes diretos da tag1.
+
+//tag1//tag2: Seleciona elementos da tag2 que são descendentes (diretos ou indiretos) da tag1.
+
+//tag[position()=n]: Seleciona o n-ésimo elemento da tag especificada.
+
+//tag[contains(text(),'texto')]: Seleciona elementos com a tag especificada que contêm o texto fornecido.
+
+//tag/text(): Retorna o texto contido dentro dos elementos com a tag especificada.
+
+
+//tag[@atributo='valor']: Seleciona elementos com a tag especificada que possuem um atributo com um determinado valor.
+
+//tag[@attr='valor']/text(): Seleciona o texto contido dentro do elemento com o atributo e valor especificados.
+
+//tag[@attr='valor']/@atributo: Seleciona o valor do atributo específico dentro do elemento com o atributo e valor especificados.
+
+//tag[contains(@attr, 'valor')]: Seleciona elementos com o atributo especificado que contém o valor fornecido.
+
+
+//tag1/following-sibling::tag2: Seleciona elementos da tag2 que são irmãos seguintes da tag1.
+
+//tag1/preceding-sibling::tag2: Seleciona elementos da tag2 que são irmãos anteriores da tag1.
+
+//tag[@attr]/parent::parent::tag2: Seleciona elementos da tag2 que são avós do elemento com o atributo especificado.
+
+
+//tag[descendant::tag2]: Seleciona elementos da tag especificada que possuem elementos descendentes da tag2.
+
+//tag[ancestor::tag2]: Seleciona elementos da tag especificada que possuem elementos ancestrais da tag2.
+
+//tag[position()=1]/self::tag: Seleciona o primeiro elemento da tag especificada, incluindo a si mesmo.
+
+# Uso de Classes e IDs
 
 Para selecionar elementos com base em uma classe, substitua "tag" por "*[@class='nome-da-classe']". Por exemplo:
 
@@ -188,19 +226,22 @@ Para selecionar elementos com base em um ID, substitua "tag" por "*[@id='nome-do
 Para selecionar o elemento com o ID "exemplo", use "//*[@id='exemplo']".
 
 
-//tag: Seleciona todos os elementos com a tag especificada, independentemente de sua localização no documento.
+//*[@class='nome-da-classe'][@atributo='valor']: Seleciona elementos com a classe especificada que também possuem um determinado atributo e valor.
 
-//tag[@atributo='valor']: Seleciona elementos com a tag especificada que possuem um atributo com um determinado valor.
+//*[@id='nome-do-id'][@atributo='valor']: Seleciona elementos com o ID especificado que também possuem um determinado atributo e valor.
 
-//tag/text(): Retorna o texto contido dentro dos elementos com a tag especificada.
+//*[@class='nome-da-classe']/text(): Seleciona o texto contido dentro dos elementos com a classe especificada.
 
-//tag[contains(text(),'texto')]: Seleciona elementos com a tag especificada que contêm o texto fornecido.
+//*[@id='nome-do-id']/text(): Seleciona o texto contido dentro do elemento com o ID especificado.
 
-//tag1/tag2: Seleciona elementos da tag2 que são descendentes diretos da tag1.
+//*[@class='nome-da-classe']/@atributo: Seleciona o valor do atributo específico dentro dos elementos com a classe especificada.
 
-//tag1//tag2: Seleciona elementos da tag2 que são descendentes (diretos ou indiretos) da tag1.
+//*[@id='nome-do-id']/@atributo: Seleciona o valor do atributo específico dentro do elemento com o ID especificado.
 
-//tag[position()=n]: Seleciona o n-ésimo elemento da tag especificada.
+//*[@class='nome-da-classe'][1]: Seleciona o primeiro elemento com a classe especificada.
+
+
+# Outras Funções
 
 //tag[last()]: Seleciona o último elemento da tag especificada.
 
@@ -214,15 +255,9 @@ Para selecionar o elemento com o ID "exemplo", use "//*[@id='exemplo']".
 
 //tag[last()-n]: Seleciona o n-ésimo elemento a partir do último elemento da tag especificada.
 
-//tag[@attr='valor']/text(): Seleciona o texto contido dentro do elemento com o atributo e valor especificados.
-
-//tag[@attr='valor']/@atributo: Seleciona o valor do atributo específico dentro do elemento com o atributo e valor especificados.
-
 //tag[starts-with(@attr, 'valor')]: Seleciona elementos com o atributo especificado que começa com o valor fornecido.
 
 //tag[ends-with(@attr, 'valor')]: Seleciona elementos com o atributo especificado que termina com o valor fornecido.
-
-//tag[contains(@attr, 'valor')]: Seleciona elementos com o atributo especificado que contém o valor fornecido.
 
 //tag[not(@attr)]: Seleciona elementos da tag especificada que não possuem o atributo especificado.
 
@@ -232,14 +267,31 @@ Para selecionar o elemento com o ID "exemplo", use "//*[@id='exemplo']".
 
 //tag[position() mod n = 0]: Seleciona elementos da tag especificada em posições múltiplas de n.
 
-//tag1/following-sibling::tag2: Seleciona elementos da tag2 que são irmãos seguintes da tag1.
 
-//tag1/preceding-sibling::tag2: Seleciona elementos da tag2 que são irmãos anteriores da tag1.
+# Outras Funções como uso de Classes e IDs
 
-//tag[@attr]/parent::parent::tag2: Seleciona elementos da tag2 que são avós do elemento com o atributo especificado.
+//*[@id='nome-do-id'][last()]: Seleciona o último elemento com o ID especificado.
 
-//tag[descendant::tag2]: Seleciona elementos da tag especificada que possuem elementos descendentes da tag2.
+//*[@class='nome-da-classe']//tag: Seleciona elementos com a classe especificada que possuem elementos descendentes da tag especificada.
 
-//tag[ancestor::tag2]: Seleciona elementos da tag especificada que possuem elementos ancestrais da tag2.
+//*[@id='nome-do-id']//tag: Seleciona elementos com o ID especificado que possuem elementos descendentes da tag especificada.
 
-//tag[position()=1]/self::tag: Seleciona o primeiro elemento da tag especificada, incluindo a si mesmo.
+//*[@class='nome-da-classe']/following-sibling::tag: Seleciona elementos da tag especificada que são irmãos seguintes dos elementos com a classe especificada.
+
+//*[@id='nome-do-id']/following-sibling::tag: Seleciona elementos da tag especificada que são irmãos seguintes do elemento com o ID especificado.
+
+//*[@class='nome-da-classe']/preceding-sibling::tag: Seleciona elementos da tag especificada que são irmãos anteriores dos elementos com a classe especificada.
+
+//*[@id='nome-do-id']/preceding-sibling::tag: Seleciona elementos da tag especificada que são irmãos anteriores do elemento com o ID especificado.
+
+//*[@class='nome-da-classe']/parent::tag: Seleciona elementos da tag especificada que são pais dos elementos com a classe especificada.
+
+//*[@id='nome-do-id']/parent::tag: Seleciona elementos da tag especificada que são pais do elemento com o ID especificado.
+
+//*[@class='nome-da-classe'][@atributo='valor']/descendant::tag2: Seleciona elementos da tag2 que são descendentes dos elementos com a classe e atributo especificados.
+
+//*[@id='nome-do-id'][@atributo='valor']/descendant::tag2: Seleciona elementos da tag2 que são descendentes do elemento com o ID e atributo especificados.
+
+//*[contains(@class, 'valor')]/text(): Seleciona o texto contido dentro de elementos que possuem a classe contendo o valor especificado.
+
+//*[contains(@id, 'valor')]/text(): Seleciona o texto contido dentro do elemento que possui o ID contendo o valor especificado.
