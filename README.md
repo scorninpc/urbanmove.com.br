@@ -179,6 +179,8 @@ Se for a segunda vez que o texto "Data" aparece dentro do código
 ## XPATH
 # Principais Funções
 
+Geral:
+
 //tag: Seleciona todos os elementos com a tag especificada, independentemente de sua localização no documento.
 
 //tag1/tag2: Seleciona elementos da tag2 que são descendentes diretos da tag1.
@@ -191,6 +193,7 @@ Se for a segunda vez que o texto "Data" aparece dentro do código
 
 //tag/text(): Retorna o texto contido dentro dos elementos com a tag especificada.
 
+Atributo:
 
 //tag[@atributo='valor']: Seleciona elementos com a tag especificada que possuem um atributo com um determinado valor.
 
@@ -200,13 +203,13 @@ Se for a segunda vez que o texto "Data" aparece dentro do código
 
 //tag[contains(@attr, 'valor')]: Seleciona elementos com o atributo especificado que contém o valor fornecido.
 
+Elementos próximos:
 
 //tag1/following-sibling::tag2: Seleciona elementos da tag2 que são irmãos seguintes da tag1.
 
 //tag1/preceding-sibling::tag2: Seleciona elementos da tag2 que são irmãos anteriores da tag1.
 
 //tag[@attr]/parent::parent::tag2: Seleciona elementos da tag2 que são avós do elemento com o atributo especificado.
-
 
 //tag[descendant::tag2]: Seleciona elementos da tag especificada que possuem elementos descendentes da tag2.
 
@@ -220,11 +223,11 @@ Para selecionar elementos com base em uma classe, substitua "tag" por "*[@class=
 
 Para selecionar elementos com a classe "exemplo", use "//*[@class='exemplo']".
 
-
 Para selecionar elementos com base em um ID, substitua "tag" por "*[@id='nome-do-id']". Por exemplo:
 
 Para selecionar o elemento com o ID "exemplo", use "//*[@id='exemplo']".
 
+Exemplos
 
 //*[@class='nome-da-classe'][@atributo='valor']: Seleciona elementos com a classe especificada que também possuem um determinado atributo e valor.
 
@@ -240,8 +243,41 @@ Para selecionar o elemento com o ID "exemplo", use "//*[@id='exemplo']".
 
 //*[@class='nome-da-classe'][1]: Seleciona o primeiro elemento com a classe especificada.
 
+# Manipulação de Strings
 
-# Outras Funções
+substring-before(string, delimiter): Retorna a parte da string antes do delimitador especificado. Por exemplo:
+
+substring-before("Hello, World!", ",") retornará "Hello".
+
+substring-after(string, delimiter): Retorna a parte da string após o delimitador especificado. Por exemplo:
+
+substring-after("Hello, World!", ",") retornará " World!".
+
+normalize-space(string): Remove espaços em branco adicionais e normaliza os espaços em branco dentro da string especificada.
+
+translate(string, caracteres-de, caracteres-para): Substitui caracteres na string especificada com base em uma tabela de tradução.
+
+
+substring(string, início, comprimento): Retorna uma parte da string especificada com base no ponto de partida e no comprimento especificados.
+
+string-length(string): Retorna o comprimento da string especificada.
+
+
+# Outras Funções de manipulação de Strings
+
+lower-case(string): Converte a string especificada para letras minúsculas.
+
+upper-case(string): Converte a string especificada para letras maiúsculas.
+
+concat(string1, string2, ..., stringN): Concatena as strings especificadas em uma única string.
+
+starts-with(string, prefixo): Verifica se a string especificada começa com o prefixo especificado. Retorna true ou false.
+
+ends-with(string, sufixo): Verifica se a string especificada termina com o sufixo especificado. Retorna true ou false.
+
+contains(string, substring): Verifica se a substring especificada está presente na string especificada. Retorna true ou false.
+
+# Outras Funções Gerais
 
 //tag[last()]: Seleciona o último elemento da tag especificada.
 
@@ -268,7 +304,7 @@ Para selecionar o elemento com o ID "exemplo", use "//*[@id='exemplo']".
 //tag[position() mod n = 0]: Seleciona elementos da tag especificada em posições múltiplas de n.
 
 
-# Outras Funções como uso de Classes e IDs
+# Outras Funções com o uso de Classes e IDs
 
 //*[@id='nome-do-id'][last()]: Seleciona o último elemento com o ID especificado.
 
