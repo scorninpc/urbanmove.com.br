@@ -177,7 +177,7 @@ Se for a segunda vez que o texto "Data" aparece dentro do código
 `span:contains("Data"):next(2)` Em implementação!!!
 
 ## XPATH
-# Principais Funções
+### Principais Funções
 
 Geral:
 
@@ -217,7 +217,7 @@ Elementos próximos:
 
 //tag[position()=1]/self::tag: Seleciona o primeiro elemento da tag especificada, incluindo a si mesmo.
 
-# Uso de Classes e IDs
+### Uso de Classes e IDs
 
 Para selecionar elementos com base em uma classe, substitua "tag" por "*[@class='nome-da-classe']". Por exemplo:
 
@@ -243,7 +243,7 @@ Exemplos
 
 //*[@class='nome-da-classe'][1]: Seleciona o primeiro elemento com a classe especificada.
 
-# Manipulação de Strings
+### Manipulação de Strings
 
 substring-before(string, delimiter): Retorna a parte da string antes do delimitador especificado. Por exemplo:
 
@@ -263,7 +263,7 @@ substring(string, início, comprimento): Retorna uma parte da string especificad
 string-length(string): Retorna o comprimento da string especificada.
 
 
-# Outras Funções de manipulação de Strings
+### Outras Funções de manipulação de Strings
 
 lower-case(string): Converte a string especificada para letras minúsculas.
 
@@ -277,7 +277,7 @@ ends-with(string, sufixo): Verifica se a string especificada termina com o sufix
 
 contains(string, substring): Verifica se a substring especificada está presente na string especificada. Retorna true ou false.
 
-# Outras Funções Gerais
+### Outras Funções Gerais
 
 //tag[last()]: Seleciona o último elemento da tag especificada.
 
@@ -304,7 +304,7 @@ contains(string, substring): Verifica se a substring especificada está presente
 //tag[position() mod n = 0]: Seleciona elementos da tag especificada em posições múltiplas de n.
 
 
-# Outras Funções com o uso de Classes e IDs
+### Outras Funções com o uso de Classes e IDs
 
 //*[@id='nome-do-id'][last()]: Seleciona o último elemento com o ID especificado.
 
