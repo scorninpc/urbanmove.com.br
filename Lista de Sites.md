@@ -10,6 +10,27 @@ Brameleiloes	www.brameleiloes.com.br
 
 vegasleiloes	https://vegasleiloes.com.br/item/4976/detalhes?page=1
 
+Gaia Leiloes
+comitente - veio o texto todo.
+data - rodou somente o texto
+documento- 2 não encontrei
+Preço 1  e 2 não rodou.
+status não rodou.
+ 
+specer leiloes
+titulo não rodou
+status nao rodou
+data e preço junto
+endereço dentro de  descrição
+comitente não há
+
+Leiloes Judiciais
+no Preço coloquei o lance minimo.
+endereço dentro de descrição
+
+dr leiloes
+endereço dentro de descrição
+
 ### Em andamento
 
 Frazaoleiloes	www.frazaoleiloes.com.br
