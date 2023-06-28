@@ -179,7 +179,7 @@ Se for a segunda vez que o texto "Data" aparece dentro do código
 ## XPATH
 ### Principais Funções
 
-Geral:
+#### Geral:
 
 //tag: Seleciona todos os elementos com a tag especificada, independentemente de sua localização no documento.
 
