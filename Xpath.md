@@ -34,6 +34,10 @@ ADICIONAR PESQUISAS DE ATRIBUTOS E EM OUTROS CAMPOS
 
 ADICIONAR FUNÇÕES DE DESLOCAMENTO PARA FRENTE
 
+"substring-before(substring-after(//*[@Class='card-action-item-date'], 's'), 'h')
+
+normalize-space(string)
+
 
 # Exemplos Práticos
 
@@ -361,8 +365,6 @@ Se eu quiser apenas a hora
 
 ![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/e7f43a34-dead-4196-b39c-6b89cfce6913)
 
-
-substring-before(substring-after(//div[.//strong[contains(text(), "Processo:")]], "Visitas:"), "P")
 
 normalize-space(string)
 
