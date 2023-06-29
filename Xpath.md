@@ -1,4 +1,25 @@
+# O Básico sobre leilões
+Praças
+venda direta
+jud
+extra
+status
+comitente
+documetnação
+avaliação e preço 1 praça
+desconto...
+
+# Recomendações iniciais
+
+O Objetivo é capturar os campos para que sirvam para todos os sites, então a captura não pode ser ancorada em dados específicos
+
+Captrurar dados preferenciamente de Leilões extajudiciais com 2 praças
+
+Conferir com Extrajudicial, Venda direta, Status encerrado ou Suspenso.
+
 # XPath
+
+# Resumo
 
 # Exemplos Práticos
 
@@ -262,20 +283,14 @@ https://www.portalzuk.com.br/imovel/sp/sao-paulo/bras/avenida-alcantara-machado-
 
 ![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/2a35f994-43db-43b8-9ad3-ca65ebf5cd0e)
 
-![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/7b5d71d2-9432-4b7d-ac3f-d5f6f1e569d4)
+![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/a4bc4036-df6d-44b4-9fb6-98e5d7dab8a7)
+
+#### Grande utilidade para a função Following-sibling
+
+
+
 
 ## Funções de Texto
 
 
 
-## Outros
-
-### (Deslocamento) A expressão completa //ul[.//div[contains(text(),'Lance m')]] retorna o elemento ul que contenha um div em qualquer nível de profundidade que tenha o texto "Lance m".
-
-//ul[.//div[contains(text(),'Lance m')]]
-
-![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/1972beb5-fb80-4bb5-a4af-7dc3143c2b36)
-
-//ul[.//div[contains(text(),'Lance m')]]/li/div
-
-//ul[.//div[contains(text(),'Lance m')]]//div
