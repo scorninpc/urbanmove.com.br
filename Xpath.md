@@ -93,11 +93,70 @@ https://www.portalzuk.com.br/imovel/sp/sao-paulo/bras/avenida-alcantara-machado-
 
 //div[@class="property-documents-items"]/a[position()=2]/@href
 
-//div[@class="property-documents-items"]/*[@class="property-documents-item"][position()=2]/@href
+//div[@class="property-documents-items"]/*[@class="property-documents-item"][2]/@href
 
-![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/5cfe31dd-a454-4513-bb4b-a02273301d1c)
+![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/a39f8471-1aa8-4d1b-9968-cde96a49eb8a
 
-#### Quando queremos capturar um elemento dentro de um vetor, ou seja, quando existem vários elementos com o mesmo seletor e queremos uma posição específica devemos utilizar `[position()=n]` onde o n é a posição desejada
+``` html
+<ul class="card-action-items">
+          <li class="card-action-item">
+            <div class="card-action-item-type-bid">
+                    Lance mínimo:
+            </div>
+        </li>
+        <li class="card-action-item">
+            <div class="card-action-item-content">
+                <span class="card-action-item-text ">1º Leilão</span>
+                <span class="card-action-item-date">
+                    <s>
+                        15/06/23 às 10h40
+                    </s>
+                </span>
+            </div>
+                <span class="card-action-item-value">R$ <s>418.190,84</s></span>
+        </li>
+        <li class="card-action-item">
+            <div class="card-action-item-content">
+                <span class="card-action-item-text">2º Leilão</span>
+                <span class="card-action-item-date">07/07/23 às 10h40</span>
+            </div>
+              <span class="card-action-item-value">R$ 250.914,51</span>
+        </li>
+</ul>
+```
+//*[@class = 'card-action-items']//span[1]
+#### Retorna todos os spans que estão em 1º lugar dentro de seus Tags
+
+//*[@class = 'card-action-items']//span[2]
+#### Retorna todos os spans que estão em 2º lugar dentro de seus Tags
+
+![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/1ff22466-4613-41d2-8d7a-a957f09eb4e2)
+
+//*[@class = 'card-action-items']//li[1]
+
+//*[@class = 'card-action-items']//li[2]
+
+//*[@class = 'card-action-items']//li[3]
+
+![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/1a4fb671-024d-4cf2-bd99-e98d9811d24d)
+
+//*[@class = 'card-action-items']//li[2]//span[1]
+
+//*[@class = 'card-action-items']//li[2]//span[2]
+
+![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/6d86234c-0c4f-4f67-9596-bf992737bad4)
+
+
+
+
+
+
+
+
+
+
+
+#### Quando queremos capturar um elemento dentro de um vetor, ou seja, quando existem vários elementos com o mesmo seletor e queremos uma posição específica devemos utilizar `[position()=n]` ou apenas [n] onde o n é a posição desejada
 
 ## Funções de Pesquisa e Deslocamento
 
@@ -138,13 +197,16 @@ https://www.portalzuk.com.br/imovel/sp/sao-paulo/bras/avenida-alcantara-machado-
 
 #### O operador /.. é usado para navegar para o elemento pai direto. Portanto, essa expressão XPath selecionará o elemento div pai do div que contém o texto "1º Leilão:".
 
+//li[@class = 'card-action-item']//span[contains(text(),'Leil')]
+
+//li[@class = 'card-action-item']//span[contains(text(),'Leil')]/..
+
 ![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/0d546ce4-b369-48a8-ae2c-979b85db2ee4)
 
 
 
 
 
-![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/e784761a-49c5-49e9-946c-6d9e1e152998)
 
 #### A expressão completa //ul[.//div[contains(text(),'Lance mínimo:')]] busca por um elemento ul que contenha um div em qualquer nível de profundidade que tenha o texto "Lance mínimo:".
 
@@ -154,12 +216,11 @@ https://www.portalzuk.com.br/imovel/sp/sao-paulo/bras/avenida-alcantara-machado-
 
 
 
-//li[@class = 'card-action-item']//span[contains(text(),'Leil')]
-
-//li[@class = 'card-action-item']//span[contains(text(),'Leil')]/..
 
 
 
+
+![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/e784761a-49c5-49e9-946c-6d9e1e152998)
 
  
 
