@@ -111,20 +111,20 @@ Quando queremos capturar um elemento dentro de um vetor, ou seja, quando existem
                               Lance mínimo:
                           </div>
           </li>
-                    <li class="card-action-item">
+          <li class="card-action-item">
               <div class="card-action-item-content">
-                                <span class="card-action-item-text ">1º Leilão</span>
-                                <span class="card-action-item-date">
-                  <s>
-                  15/06/23 às 10h40
-                  </s>
-                </span>
+                    <span class="card-action-item-text ">1º Leilão</span>
+                    <span class="card-action-item-date">
+                              <s>
+                                        15/06/23 às 10h40
+                              </s>
+                    </span>
               </div>
               <span class="card-action-item-value">R$ <s>418.190,84</s></span>
           </li>
-                    <li class="card-action-item">
+          <li class="card-action-item">
               <div class="card-action-item-content"><span class="card-action-item-text">2º
-                      Leilão</span><span class="card-action-item-date">07/07/23 às 10h40</span></div>
+              Leilão</span><span class="card-action-item-date">07/07/23 às 10h40</span></div>
               <span class="card-action-item-value">R$ 250.914,51</span>
           </li>
                     
