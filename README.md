@@ -47,6 +47,26 @@ Escrever o nome do leiloeiro
     Erro 01:    
 ![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/9c4d9a49-9dcd-4535-8828-5a9c476fe1f9)
 
+
+# O Básico sobre leilões
+Praças
+venda direta
+jud
+extra
+status
+comitente
+documetnação
+avaliação e preço 1 praça
+desconto...
+
+# Recomendações iniciais
+
+O Objetivo é capturar os campos para que sirvam para todos os sites, então a captura não pode ser ancorada em dados específicos
+
+Captrurar dados preferenciamente de Leilões extajudiciais com 2 praças
+
+Conferir com Extrajudicial, Venda direta, Status encerrado ou Suspenso.
+
     
 ## CSS
 
