@@ -21,6 +21,37 @@ Conferir com Extrajudicial, Venda direta, Status encerrado ou Suspenso.
 
 # Resumo
 
+/
+
+//
+@
+*
+
+[]
+
+//TAG 
+
+//*[@class = 'escrever a class']
+
+//*[@id = 'escrever o id']
+
+//TAG/@ATRIBUTO
+
+//TAG/A/@ATRIBUTO
+
+//TAG//A/@ATRIBUTO
+
+//TAG//A [N]
+
+(//TAG//A)[N]
+
+//TAG[contains(text(),'TEXTO DESEJADO')]
+
+ADICIONAR PESQUISAS DE ATRIBUTOS E EM OUTROS CAMPOS
+
+ADICIONAR FUNÇÕES DE DESLOCAMENTO PARA FRENTE
+
+
 # Exemplos Práticos
 
 # Funções Básicas 
@@ -220,7 +251,7 @@ https://www.portalzuk.com.br/imovel/sp/sao-paulo/bras/avenida-alcantara-machado-
 
 #### Utilizar parenteses () e a posição no vetor [n]
 
-(//div[contains(text(),'Lance mínimo:')])(2)
+(//div[contains(text(),'Lance mínimo:')])[2]
 
 #### Ou especificar o caminho
 
