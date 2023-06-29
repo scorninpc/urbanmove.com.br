@@ -19,8 +19,7 @@ https://www.portalzuk.com.br/imovel/sp/sao-paulo/bras/avenida-alcantara-machado-
 
 `<h1 class="title">Apartamento à venda em leilão</h1>`
 
-//h1[@class = 'title']
-#### Retorna 
+//h1[@class = 'title'] 
 
 //*[@class = 'title']
 
@@ -29,7 +28,7 @@ https://www.portalzuk.com.br/imovel/sp/sao-paulo/bras/avenida-alcantara-machado-
 #### A captura de um elemento deve começar com `//TAG`, o que pode ser substituído por `//*` em locais que possuem outras referências únicas
 
 
-### Capturando o texto um ID
+## Capturando o texto um ID
 
 `<span id="maior-lance-vlr">0,00</span>`
 
@@ -40,7 +39,7 @@ https://www.portalzuk.com.br/imovel/sp/sao-paulo/bras/avenida-alcantara-machado-
 ![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/e3698f3a-da4c-457f-9945-f37c840699cc)
 
 
-### Capturando um Atributo de Filhos
+## Capturando um Atributo de Filhos
 ```html
 <figure class="box-action-bank">
 <a href="https://www.portalzuk.com.br/leilao-de-imoveis/v/leilao-judicial-sao-paulo-tjsp"> 
@@ -69,8 +68,8 @@ https://www.portalzuk.com.br/imovel/sp/sao-paulo/bras/avenida-alcantara-machado-
 #### href, alt, src são atributos e quando precisamos obter seus valores devemos utilizar `@nome_do_atributo`  
 
 
-### Vetores
-
+## Vetores
+### Exemplo 01
 ``` html
 <div class="property-documents-items">
 
@@ -97,6 +96,8 @@ https://www.portalzuk.com.br/imovel/sp/sao-paulo/bras/avenida-alcantara-machado-
 //div[@class="property-documents-items"]/*[@class="property-documents-item"][2]/@href
 
 ![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/a39f8471-1aa8-4d1b-9968-cde96a49eb8a
+
+### Exemplo 02
 
 ``` html
 <ul class="card-action-items">
