@@ -1,22 +1,3 @@
-# O Básico sobre leilões
-Praças
-venda direta
-jud
-extra
-status
-comitente
-documetnação
-avaliação e preço 1 praça
-desconto...
-
-# Recomendações iniciais
-
-O Objetivo é capturar os campos para que sirvam para todos os sites, então a captura não pode ser ancorada em dados específicos
-
-Captrurar dados preferenciamente de Leilões extajudiciais com 2 praças
-
-Conferir com Extrajudicial, Venda direta, Status encerrado ou Suspenso.
-
 # XPath
 
 # Resumo
@@ -30,6 +11,8 @@ Conferir com Extrajudicial, Venda direta, Status encerrado ou Suspenso.
 []
 
 //TAG 
+
+//tag/text(): Retorna o texto contido dentro dos elementos com a tag especificada.
 
 //*[@class = 'escrever a class']
 
@@ -264,6 +247,14 @@ https://www.portalzuk.com.br/imovel/sp/sao-paulo/bras/avenida-alcantara-machado-
 ![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/8122c760-1cfe-452f-b554-b3b492ab5c35)
 
 #PEsquisa nos atributos, ou parcial no nome da classe...
+
+### Funções de pesquisas diferentes
+
+//*[contains(@class, 'valor'): Seleciona o texto contido dentro de elementos que possuem a classe contendo o valor especificado.
+![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/b672acfe-cca2-45ab-856b-03dac5a8ee8d)
+
+//img[contains(@src, 'webp')], captura todos os atributos "src" que contenham o formato de arquivo "webp" 
+![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/5aa9a1d4-c44c-4096-893f-95af55a556bd)
 
 ## Funções de Deslocamento
 
