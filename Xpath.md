@@ -235,12 +235,14 @@ https://www.portalzuk.com.br/imovel/sp/sao-paulo/bras/avenida-alcantara-machado-
 
 (//li[@class='card-action-item']//span[contains(text(),'Leil')])[2]
 
+![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/2d3af111-f7de-4293-92ab-60cf25788894)
 
 ### Following-sibling
 //strong[contains(text(), "Data 2º Leilão:")]/following-sibling::text()[1]
 #### Retorna 13/07/2023 14:30 dentro de:
 
 <h6 class="text-center border-top p-2 m-0"><strong>Data 2º Leilão:</strong> 13/07/2023 14:30</h6>
+
 
 
 ### Preceding-sibling
