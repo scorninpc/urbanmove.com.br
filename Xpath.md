@@ -30,9 +30,29 @@
 
 //TAG[contains(text(),'TEXTO DESEJADO')]
 
-ADICIONAR PESQUISAS DE ATRIBUTOS E EM OUTROS CAMPOS
+//span[contains(text(),'Leilão')]
 
-ADICIONAR FUNÇÕES DE DESLOCAMENTO PARA FRENTE
+(//div[contains(text(),'Lance mínimo:')])[2]
+
+//*[contains(@class, 'valor'): Seleciona o texto contido dentro de elementos que possuem a classe contendo o valor especificado.
+
+//img[contains(@src, 'webp')], captura todos os atributos "src" que contenham o formato de arquivo "webp"
+
+//s[contains(text(),'15/06/23')]
+
+//s[contains(text(),'15/06/23')]/../../..
+
+//li[@class = 'card-action-item']//span[contains(text(),'Leil')]
+
+(//li[@class='card-action-item']//span[contains(text(),'Leil')])[2]
+
+//*[contains(text(),'Processo:')]/following-sibling::TAG
+
+//*[contains(text(),'Processo:')]/preceding-sibling::text()[1]
+
+substring-before(//*[@Class='card-action-item-date'], ' às')
+
+substring-after(//*[@Class='card-action-item-date'], 's ')
 
 "substring-before(substring-after(//*[@Class='card-action-item-date'], 's'), 'h')
 
