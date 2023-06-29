@@ -8,9 +8,9 @@
 
 https://www.portalzuk.com.br/imovel/sp/sao-paulo/bras/avenida-alcantara-machado-2978/26961-172938
 
-### Teste dos comandos no navegador
+### Teste dos comandos no console do navegador
 
-$x("comando XPath")
+`$x("comando XPath")`
 
 ![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/a9e8fbd8-7c10-47be-bccf-c0687a789c76)
 
@@ -134,6 +134,16 @@ $x("comando XPath")
 
 //ul[.//div[contains(text(),'Lance m')]]
 
+#### O operador /.. é usado para navegar para o elemento pai direto. Portanto, essa expressão XPath selecionará o elemento div pai do div que contém o texto "1º Leilão:".
+
+![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/0d546ce4-b369-48a8-ae2c-979b85db2ee4)
+
+
+
+
+
+![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/e784761a-49c5-49e9-946c-6d9e1e152998)
+
 #### A expressão completa //ul[.//div[contains(text(),'Lance mínimo:')]] busca por um elemento ul que contenha um div em qualquer nível de profundidade que tenha o texto "Lance mínimo:".
 
 //ul[.//div[contains(text(),'Lance m')]]/li/div
@@ -146,15 +156,7 @@ $x("comando XPath")
 
 //li[@class = 'card-action-item']//span[contains(text(),'Leil')]/..
 
-#### O operador /.. é usado para navegar para o elemento pai direto. Portanto, essa expressão XPath selecionará o elemento div pai do div que contém o texto "1º Leilão:".
 
-![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/0d546ce4-b369-48a8-ae2c-979b85db2ee4)
-
-
-
-
-
-![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/e784761a-49c5-49e9-946c-6d9e1e152998)
 
 
  
