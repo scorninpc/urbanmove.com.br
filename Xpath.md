@@ -318,7 +318,32 @@ https://www.portalzuk.com.br/imovel/sp/sao-paulo/bras/avenida-alcantara-machado-
 
 #### Grande utilidade para a função Following-sibling
 
+``` html
+<div class="mb-3 p-2 border rounded text-justify">
+   
+<div>
+        Lance Inicial: R$ 7.084.704,92 (valor mínimo para a melhor proposta + 5% de comissão)<br>
+        Entrada 25% + 30 parcelas  
+    </div>
 
+    <br><b>Processo:</b> 65910820184013807
+      
+    <br><b>Vara:</b> SUBSEÇÃO JUDICIÁRIA DE MONTES CLAROS/MG
+    
+    <br><b>Comarca:</b> MONTES CLAROS/MG
+  
+    <div><b>Comissão:</b> 5%</div>
+ 
+</div>
+```
+
+Neste exemplo a melhor maneira de capturar o número do processo é com o uso do Following-sibling.
+
+//*[contains(text(),'Processo:')]/following-sibling::text()[1]
+
+![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/acd64045-22ab-4d6d-8eda-2026e292ab9e)
+
+![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/d96bd7cc-8f73-49f8-bf84-ebf2d5625aea)
 
 
 ## Funções de Texto
