@@ -2,7 +2,7 @@
 
 # Exemplos Práticos
 
-## Funções Básicas 
+# Funções Básicas 
 
 ### Link
 
@@ -15,11 +15,12 @@ https://www.portalzuk.com.br/imovel/sp/sao-paulo/bras/avenida-alcantara-machado-
 ![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/a9e8fbd8-7c10-47be-bccf-c0687a789c76)
 
 
-### Capturando o texto uma classe
+## Capturando o texto uma classe
 
 `<h1 class="title">Apartamento à venda em leilão</h1>`
 
 //h1[@class = 'title']
+#### Retorna 
 
 //*[@class = 'title']
 
