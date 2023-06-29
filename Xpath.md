@@ -137,6 +137,8 @@ Quando queremos capturar um elemento dentro de um vetor, ou seja, quando existem
 
 //ul[.//div[contains(text(),'Lance m')]]
 
+#### A expressão completa //ul[.//div[contains(text(),'Lance mínimo:')]] busca por um elemento ul que contenha um div em qualquer nível de profundidade que tenha o texto "Lance mínimo:".
+
 //ul[.//div[contains(text(),'Lance m')]]/li/div
 
 //ul[.//div[contains(text(),'Lance m')]]//div
@@ -147,13 +149,14 @@ Quando queremos capturar um elemento dentro de um vetor, ou seja, quando existem
 
 //li[@class = 'card-action-item']//span[contains(text(),'Leil')]/..
 
-O operador /.. é usado para navegar para o elemento pai. Portanto, essa expressão XPath selecionará o elemento div pai do div que contém o texto "1º Leilão:".
+#### O operador /.. é usado para navegar para o elemento pai direto. Portanto, essa expressão XPath selecionará o elemento div pai do div que contém o texto "1º Leilão:".
 
 ![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/0d546ce4-b369-48a8-ae2c-979b85db2ee4)
 
 
 
-A expressão completa //ul[.//div[contains(text(),'Lance mínimo:')]] busca por um elemento ul que contenha um div em qualquer nível de profundidade que tenha o texto "Lance mínimo:".
+
+
 ![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/e784761a-49c5-49e9-946c-6d9e1e152998)
 
 
