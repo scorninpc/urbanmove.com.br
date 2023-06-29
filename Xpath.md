@@ -134,6 +134,8 @@ https://www.portalzuk.com.br/imovel/sp/sao-paulo/bras/avenida-alcantara-machado-
 
 //ul[.//div[contains(text(),'Lance m')]]
 
+![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/e0180f33-cde3-4a8a-a0e8-0aadb6515f32)
+
 #### O operador /.. é usado para navegar para o elemento pai direto. Portanto, essa expressão XPath selecionará o elemento div pai do div que contém o texto "1º Leilão:".
 
 ![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/0d546ce4-b369-48a8-ae2c-979b85db2ee4)
@@ -150,7 +152,7 @@ https://www.portalzuk.com.br/imovel/sp/sao-paulo/bras/avenida-alcantara-machado-
 
 //ul[.//div[contains(text(),'Lance m')]]//div
 
-![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/e0180f33-cde3-4a8a-a0e8-0aadb6515f32)
+
 
 //li[@class = 'card-action-item']//span[contains(text(),'Leil')]
 
