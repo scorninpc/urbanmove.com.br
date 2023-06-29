@@ -1,12 +1,14 @@
 # XPath
 
-## Exemplos Práticos
+# Exemplos Práticos
 
-### Link
+## Funções Básicas 
+
+#### Link
 
 https://www.portalzuk.com.br/imovel/sp/sao-paulo/bras/avenida-alcantara-machado-2978/26961-172938
 
-### Capturando o texto uma classe
+#### Capturando o texto uma classe
 
 `<h1 class="title">Apartamento à venda em leilão</h1>`
 
@@ -17,7 +19,7 @@ https://www.portalzuk.com.br/imovel/sp/sao-paulo/bras/avenida-alcantara-machado-
 ![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/b52d1965-6fe5-45e9-8a0a-0a3bbef280de)
 
 
-### Capturando o texto um ID
+#### Capturando o texto um ID
 
 `<span id="maior-lance-vlr">0,00</span>`
 
@@ -28,7 +30,7 @@ https://www.portalzuk.com.br/imovel/sp/sao-paulo/bras/avenida-alcantara-machado-
 ![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/e3698f3a-da4c-457f-9945-f37c840699cc)
 
 
-### Capturando um Atributo de Filhos
+#### Capturando um Atributo de Filhos
 ```html
 <figure class="box-action-bank">
 <a href="https://www.portalzuk.com.br/leilao-de-imoveis/v/leilao-judicial-sao-paulo-tjsp"> 
@@ -49,7 +51,7 @@ https://www.portalzuk.com.br/imovel/sp/sao-paulo/bras/avenida-alcantara-machado-
 ![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/dfebce97-14c6-473a-8191-f39cf7aca9a0)
 
 
-### Vetores
+#### Vetores
 
 ``` html
 <div class="property-documents-items">
@@ -79,12 +81,6 @@ https://www.portalzuk.com.br/imovel/sp/sao-paulo/bras/avenida-alcantara-machado-
 ![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/5cfe31dd-a454-4513-bb4b-a02273301d1c)
 
 
-
-
-
-
-
-
 ## Até aqui podemos observar:
 
 A captura de um elemento deve começar com `//TAG`, o que pode ser substituído por `//*` em locais que possuem outras referências únicas
@@ -99,3 +95,8 @@ href, alt, src são atributos e quando precisamos obter seus valores devemos uti
 
 Quando queremos capturar um elemento dentro de um vetor, ou seja, quando existem vários elementos com o mesmo seletor e queremos uma posição específica devemos utilizar `[position()=n]` onde o n é a posição desejada
 
+## Funções de Pesquisa
+
+## Funções de Deslocamento
+
+## Funções de Texto
