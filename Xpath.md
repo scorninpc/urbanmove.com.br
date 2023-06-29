@@ -231,6 +231,10 @@ https://www.portalzuk.com.br/imovel/sp/sao-paulo/bras/avenida-alcantara-machado-
 
 ![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/ab07ed57-f2db-4215-8c6a-3e4e5676b279)
 
+#### Para capturar o segundo elemento devemos utilizar a expressão entre parenteses e o número que desejamos do vetor.
+
+(//li[@class='card-action-item']//span[contains(text(),'Leil')])[2]
+
 
 ### Following-sibling
 //strong[contains(text(), "Data 2º Leilão:")]/following-sibling::text()[1]
