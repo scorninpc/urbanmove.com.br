@@ -134,6 +134,10 @@ https://www.portalzuk.com.br/imovel/sp/sao-paulo/bras/avenida-alcantara-machado-
 
 ![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/1ff22466-4613-41d2-8d7a-a957f09eb4e2)
 
+#### A solução para capturar o elemento pela ordem é colocar toda a expressão entre parênteses () e sua posição no vetor [n]
+
+![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/bfac9b85-829d-40b4-aa50-190281920fc3)
+
 //*[@class = 'card-action-items']//li[1]
 
 //*[@class = 'card-action-items']//li[2]
@@ -191,6 +195,12 @@ https://www.portalzuk.com.br/imovel/sp/sao-paulo/bras/avenida-alcantara-machado-
 
 ![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/40e9a4de-7658-4746-8325-51f841803a38)
 
+#### Utilizar parenteses () e a posição no vetor [n]
+
+(//div[contains(text(),'Lance mínimo:')])(2)
+
+#### Ou especificar o caminho
+
 //ul[@class = 'card-action-items']//span[contains(text(),'Leil')]
 
 ![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/8155d12b-e6db-4004-9106-39b7781d50b4)
@@ -199,7 +209,7 @@ https://www.portalzuk.com.br/imovel/sp/sao-paulo/bras/avenida-alcantara-machado-
 
 ![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/8122c760-1cfe-452f-b554-b3b492ab5c35)
 
-#### O resultado da pesquisa não funciona ocmo um vetor, o resultado obtido será sempre o primeiro item, a posição não é aplicável nesse caso, o que se pode fazer é restringir a pesquisa a um tag, ou a um tag dentro de uma classe por exemplo
+
 
 ## Funções de Deslocamento
 
@@ -238,10 +248,8 @@ https://www.portalzuk.com.br/imovel/sp/sao-paulo/bras/avenida-alcantara-machado-
 ![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/2d3af111-f7de-4293-92ab-60cf25788894)
 
 ### Following-sibling
-//strong[contains(text(), "Data 2º Leilão:")]/following-sibling::text()[1]
-#### Retorna 13/07/2023 14:30 dentro de:
 
-<h6 class="text-center border-top p-2 m-0"><strong>Data 2º Leilão:</strong> 13/07/2023 14:30</h6>
+
 
 
 
