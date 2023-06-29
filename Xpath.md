@@ -197,10 +197,9 @@ https://www.portalzuk.com.br/imovel/sp/sao-paulo/bras/avenida-alcantara-machado-
 
 ![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/a317c7d5-c53d-4c67-9cc1-541ccf2ced37)
 
+![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/8122c760-1cfe-452f-b554-b3b492ab5c35)
 
-
-
-
+#### O resultado da pesquisa não funciona ocmo um vetor, o resultado obtido será sempre o primeiro item, a posição não é aplicável nesse caso, o que se pode fazer é restringir a pesquisa a um tag, ou a um tag dentro de uma classe por exemplo
 
 ## Funções de Deslocamento
 
