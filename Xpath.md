@@ -373,3 +373,58 @@ Se eu quiser apenas a hora
 
 substring-before(substring-after(//div[.//strong[contains(text(), "Processo:")]], "Visitas:"), "P")
 
+normalize-space(string)
+
+![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/114b4480-9e5f-45fe-a89a-3a57315bf0dc)
+
+## Outras Funções
+#### Outras Funções de String
+
+translate(string, caracteres-de, caracteres-para): Substitui caracteres na string especificada com base em uma tabela de tradução.
+
+![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/cb6b1005-3f0c-4a1b-a76f-21cfdc8a22c8)
+
+substring(string, início, comprimento): Retorna uma parte da string especificada com base no ponto de partida e no comprimento especificados.
+
+string-length(string): Retorna o comprimento da string especificada.
+
+lower-case(string): Converte a string especificada para letras minúsculas.
+
+upper-case(string): Converte a string especificada para letras maiúsculas.
+
+concat(string1, string2, ..., stringN): Concatena as strings especificadas em uma única string.
+
+starts-with(string, prefixo): Verifica se a string especificada começa com o prefixo especificado. Retorna true ou false.
+
+ends-with(string, sufixo): Verifica se a string especificada termina com o sufixo especificado. Retorna true ou false.
+
+contains(string, substring): Verifica se a substring especificada está presente na string especificada. Retorna true ou false.
+
+#### Outras Funções Gerais
+
+//tag[last()]: Seleciona o último elemento da tag especificada.
+
+//tag1[@attr1='valor1' and @attr2='valor2']: Seleciona elementos com a tag1 que possuem os atributos e valores especificados.
+
+//tag1 | //tag2: Seleciona elementos da tag1 e da tag2.
+
+//tag[position()<n]: Seleciona os elementos da tag especificada que estão em uma posição inferior a n.
+
+//tag[position()>n]: Seleciona os elementos da tag especificada que estão em uma posição superior a n.
+
+//tag[last()-n]: Seleciona o n-ésimo elemento a partir do último elemento da tag especificada.
+
+//tag[starts-with(@attr, 'valor')]: Seleciona elementos com o atributo especificado que começa com o valor fornecido.
+
+//tag[ends-with(@attr, 'valor')]: Seleciona elementos com o atributo especificado que termina com o valor fornecido.
+
+//tag[not(@attr)]: Seleciona elementos da tag especificada que não possuem o atributo especificado.
+
+//tag[@attr='valor1' or @attr='valor2']: Seleciona elementos com a tag especificada que possuem o atributo com um dos valores especificados.
+
+//tag[@attr1='valor1' and not(@attr2)]: Seleciona elementos com a tag especificada que possuem o atributo1 com o valor1 e não possuem o atributo2.
+
+//tag[position() mod n = 0]: Seleciona elementos da tag especificada em posições múltiplas de n.
+
+
+
