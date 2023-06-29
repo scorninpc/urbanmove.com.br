@@ -138,6 +138,8 @@ https://www.portalzuk.com.br/imovel/sp/sao-paulo/bras/avenida-alcantara-machado-
 
 ![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/bfac9b85-829d-40b4-aa50-190281920fc3)
 
+#### Ou especificar o caminho
+
 //*[@class = 'card-action-items']//li[1]
 
 //*[@class = 'card-action-items']//li[2]
