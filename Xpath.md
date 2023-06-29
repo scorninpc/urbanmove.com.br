@@ -203,35 +203,59 @@ https://www.portalzuk.com.br/imovel/sp/sao-paulo/bras/avenida-alcantara-machado-
 
 ## Funções de Deslocamento
 
-#### O operador /.. é usado para navegar para o elemento pai direto. Portanto, essa expressão XPath selecionará o elemento div pai do div que contém o texto "1º Leilão:".
+### O operador /.. é usado para navegar para o elemento pai direto. Portanto, essa expressão XPath selecionará o elemento div pai do div que contém o texto "1º Leilão:".
+
+//s[contains(text(),'15/06/23')]
+
+![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/23b1a4ae-0449-4086-8fd3-5cbcd19d9ae7)
+
+//s[contains(text(),'15/06/23')]/..
+
+![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/615f3026-23cc-4c20-9a97-b31d6241d1f0)
+
+//s[contains(text(),'15/06/23')]/../..
+
+![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/03239972-5e7f-401b-860b-4cbb8c3b5cc7)
+
+//s[contains(text(),'15/06/23')]/../../..
+
+![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/4d97f362-6ee7-42a8-9afe-69062855ad38)
+
+#### Outro exemplo
 
 //li[@class = 'card-action-item']//span[contains(text(),'Leil')]
 
-//li[@class = 'card-action-item']//span[contains(text(),'Leil')]/..
+![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/2533f379-f2a4-4e82-840a-4488670f79e4)
 
-![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/0d546ce4-b369-48a8-ae2c-979b85db2ee4)
+#### Será considerado apenas o primeiro
 
-
-
-
+![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/ab07ed57-f2db-4215-8c6a-3e4e5676b279)
 
 
-#### A expressão completa //ul[.//div[contains(text(),'Lance mínimo:')]] busca por um elemento ul que contenha um div em qualquer nível de profundidade que tenha o texto "Lance mínimo:".
+### Following-sibling
+//strong[contains(text(), "Data 2º Leilão:")]/following-sibling::text()[1]
+#### Retorna 13/07/2023 14:30 dentro de:
 
-//ul[.//div[contains(text(),'Lance m')]]/li/div
-
-//ul[.//div[contains(text(),'Lance m')]]//div
-
-
+<h6 class="text-center border-top p-2 m-0"><strong>Data 2º Leilão:</strong> 13/07/2023 14:30</h6>
 
 
+### Preceding-sibling
 
-
-
-![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/e784761a-49c5-49e9-946c-6d9e1e152998)
-
- 
 
 
 
 ## Funções de Texto
+
+
+
+## Outros
+
+### (Deslocamento) A expressão completa //ul[.//div[contains(text(),'Lance m')]] retorna o elemento ul que contenha um div em qualquer nível de profundidade que tenha o texto "Lance m".
+
+//ul[.//div[contains(text(),'Lance m')]]
+
+![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/1972beb5-fb80-4bb5-a4af-7dc3143c2b36)
+
+//ul[.//div[contains(text(),'Lance m')]]/li/div
+
+//ul[.//div[contains(text(),'Lance m')]]//div
