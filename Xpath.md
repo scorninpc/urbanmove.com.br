@@ -249,16 +249,20 @@ https://www.portalzuk.com.br/imovel/sp/sao-paulo/bras/avenida-alcantara-machado-
 
 ![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/2d3af111-f7de-4293-92ab-60cf25788894)
 
-### Following-sibling
+![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/b49c9885-36fa-4575-b861-bafaa28ea3ae)
 
 
+### Following-sibling e Preceding-sibling
 
+#### Essa expressão retorna todos os irmãos a frente ou atrás
 
+![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/7994644b-e71d-460b-8c3e-0bd26ba6b723)
 
-### Preceding-sibling
+![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/ff8380fe-7045-4d81-ae36-860b053d4c49)
 
+![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/2a35f994-43db-43b8-9ad3-ca65ebf5cd0e)
 
-
+![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/7b5d71d2-9432-4b7d-ac3f-d5f6f1e569d4)
 
 ## Funções de Texto
 
