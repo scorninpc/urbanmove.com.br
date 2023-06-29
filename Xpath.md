@@ -263,7 +263,7 @@ https://www.portalzuk.com.br/imovel/sp/sao-paulo/bras/avenida-alcantara-machado-
 
 ![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/8122c760-1cfe-452f-b554-b3b492ab5c35)
 
-
+#PEsquisa nos atributos, ou parcial no nome da classe...
 
 ## Funções de Deslocamento
 
@@ -348,5 +348,28 @@ Neste exemplo a melhor maneira de capturar o número do processo é com o uso do
 
 ## Funções de Texto
 
+`<span class="card-action-item-date">07/07/23 às 10h40</span>`
 
+Ao capturar //*[@Class='card-action-item-date'] teríamos o resultado 07/07/23 às 10h40 porém quero apenas a data sem o horário
+
+Para isso podemos utilizar
+
+substring-before(//*[@Class='card-action-item-date'], ' às')
+
+![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/0cb97745-9cce-4a4d-aa78-b7622fb3ac26)
+
+Se quisermos somente o horário
+
+substring-after(//*[@Class='card-action-item-date'], 's ')
+
+![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/f0e2d906-d833-4b75-83f3-250864a44359)
+
+Se eu quiser apenas a hora
+
+"substring-before(substring-after(//*[@Class='card-action-item-date'], 's'), 'h')
+
+![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/e7f43a34-dead-4196-b39c-6b89cfce6913)
+
+
+substring-before(substring-after(//div[.//strong[contains(text(), "Processo:")]], "Visitas:"), "P")
 
