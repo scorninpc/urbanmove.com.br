@@ -8,6 +8,13 @@
 
 https://www.portalzuk.com.br/imovel/sp/sao-paulo/bras/avenida-alcantara-machado-2978/26961-172938
 
+#### Teste dos comandos no navegador
+
+$x("comando XPath")
+
+![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/a9e8fbd8-7c10-47be-bccf-c0687a789c76)
+
+
 #### Capturando o texto uma classe
 
 `<h1 class="title">Apartamento à venda em leilão</h1>`
@@ -95,8 +102,63 @@ href, alt, src são atributos e quando precisamos obter seus valores devemos uti
 
 Quando queremos capturar um elemento dentro de um vetor, ou seja, quando existem vários elementos com o mesmo seletor e queremos uma posição específica devemos utilizar `[position()=n]` onde o n é a posição desejada
 
-## Funções de Pesquisa
+## Funções de Pesquisa e Deslocamento
 
-## Funções de Deslocamento
+``` html
+<ul class="card-action-items">
+          <li class="card-action-item">
+            <div class="card-action-item-type-bid">
+                              Lance mínimo:
+                          </div>
+          </li>
+                    <li class="card-action-item">
+              <div class="card-action-item-content">
+                                <span class="card-action-item-text ">1º Leilão</span>
+                                <span class="card-action-item-date">
+                  <s>
+                  15/06/23 às 10h40
+                  </s>
+                </span>
+              </div>
+              <span class="card-action-item-value">R$ <s>418.190,84</s></span>
+          </li>
+                    <li class="card-action-item">
+              <div class="card-action-item-content"><span class="card-action-item-text">2º
+                      Leilão</span><span class="card-action-item-date">07/07/23 às 10h40</span></div>
+              <span class="card-action-item-value">R$ 250.914,51</span>
+          </li>
+                    
+</ul>
+```
+
+//div[contains(text(),'Lance mínimo:')]
+
+//*[contains(text(),"Lance m")] * Por hora temos que utlizar Lance m, por hora não estão funcionando todos os caracteres
+
+//ul[.//div[contains(text(),'Lance m')]]
+
+//ul[.//div[contains(text(),'Lance m')]]/li/div
+
+//ul[.//div[contains(text(),'Lance m')]]//div
+
+![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/e0180f33-cde3-4a8a-a0e8-0aadb6515f32)
+
+//li[@class = 'card-action-item']//span[contains(text(),'Leil')]
+
+//li[@class = 'card-action-item']//span[contains(text(),'Leil')]/..
+
+O operador /.. é usado para navegar para o elemento pai. Portanto, essa expressão XPath selecionará o elemento div pai do div que contém o texto "1º Leilão:".
+
+![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/0d546ce4-b369-48a8-ae2c-979b85db2ee4)
+
+
+
+A expressão completa //ul[.//div[contains(text(),'Lance mínimo:')]] busca por um elemento ul que contenha um div em qualquer nível de profundidade que tenha o texto "Lance mínimo:".
+![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/e784761a-49c5-49e9-946c-6d9e1e152998)
+
+
+ 
+
+
 
 ## Funções de Texto
