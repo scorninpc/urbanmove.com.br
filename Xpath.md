@@ -2,61 +2,59 @@
 
 # Resumo
 
-/
+/: Indica um descendente direto
 
-//
-@
-*
+//: Indica um direto
 
-[]
+@: Indica um atributo, classe, Id...
 
-//TAG 
+*: Pode ser utilizado para representar qualquer TAG
+
+[ ]: Deve ser utilizado para inserir funções
+
+//TAG: Captura um TAG
 
 //tag/text(): Retorna o texto contido dentro dos elementos com a tag especificada.
 
-//*[@class = 'escrever a class']
+//*[@class = 'escrever a class']: Retorna a classe
 
-//*[@id = 'escrever o id']
+//*[@id = 'escrever o id']: Retorna o ID
 
-//TAG/@ATRIBUTO
+//TAG/@ATRIBUTO: Retorna o atributo dentro do TAG
 
-//TAG/A/@ATRIBUTO
+//TAG/A/@ATRIBUTO: Retorna o atributo dentro do TAG A que é filho direto do TAG
 
-//TAG//A/@ATRIBUTO
+(//TAG//A)[N]: Retorna o Enésimo TAG A filho direto ou não do TAG
 
-//TAG//A [N]
+//TAG//A [N]: Retorna um vetor com todos os TAGs A na posição N filhos do TAG (Raro utilizar)
 
-(//TAG//A)[N]
-
-//TAG[contains(text(),'TEXTO DESEJADO')]
-
-//span[contains(text(),'Leilão')]
-
-(//div[contains(text(),'Lance mínimo:')])[2]
-
-//*[contains(@class, 'valor'): Seleciona o texto contido dentro de elementos que possuem a classe contendo o valor especificado.
-
-//img[contains(@src, 'webp')], captura todos os atributos "src" que contenham o formato de arquivo "webp"
+//TAG[contains(text(),'TEXTO DESEJADO')]: Retorna o TAG QUE contém o TEXTO DESEJADO
 
 //s[contains(text(),'15/06/23')]
 
-//s[contains(text(),'15/06/23')]/../../..
+(//div[contains(text(),'Lance mínimo:')])[2]: Retorna o segundo texto Lance mínimo contido dentro de um tag div
 
-//li[@class = 'card-action-item']//span[contains(text(),'Leil')]
+//*[contains(@class, 'valor'): Seleciona o texto contido dentro de elementos que possuem a classe contendo o valor especificado.
 
-(//li[@class='card-action-item']//span[contains(text(),'Leil')])[2]
+//img[contains(@src, 'webp')]: captura todos os atributos "src" que contenham o formato de arquivo "webp"
 
-//*[contains(text(),'Processo:')]/following-sibling::TAG
+/..: Retorna o pai do elemento
 
-//*[contains(text(),'Processo:')]/preceding-sibling::text()[1]
+//s[contains(text(),'15/06/23')]/../../..: Retorna o bisavô do elemento
 
-substring-before(//*[@Class='card-action-item-date'], ' às')
+(//li[@class='card-action-item']//span[contains(text(),'Leil')])[2] Retorna o segundo elemento com o texto Lei contido dentro de um tag span que esteja abaixo de uma li com a classe card...
 
-substring-after(//*[@Class='card-action-item-date'], 's ')
+//*[contains(text(),'Processo:')]/following-sibling::TAG: Retorna todos os elementos TAG que estejam no mesmo nível hierárquicos dentro do TAG que contém o texto Processo 
 
-"substring-before(substring-after(//*[@Class='card-action-item-date'], 's'), 'h')
+//*[contains(text(),'Processo:')]/preceding-sibling::text()[1] : Retorna o texto diretamente anterior que esteja no mesmo nível hierárquicos dentro do TAG que contém o texto Processo
 
-normalize-space(string)
+substring-before(//*[@Class='card-action-item-date'], ' às'): Retorna todo texto antes de às
+
+substring-after(//*[@Class='card-action-item-date'], 's '): Retorna todo o texto depois de s
+
+"substring-before(substring-after(//*[@Class='card-action-item-date'], 's'), 'h'): Retorna todo o texto depois de s e antes de h
+
+normalize-space(string): Retira os espaços antes e depois do texto
 
 
 # Exemplos Práticos
