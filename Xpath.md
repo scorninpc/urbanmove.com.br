@@ -40,5 +40,17 @@ https://www.portalzuk.com.br/imovel/sp/sao-paulo/bras/avenida-alcantara-machado-
 
 //figure[@class="box-action-bank"]//@alt
 
-< asdas > 
+### Até aqui podemos observar:
+
+A captura de um elemento deve começar com `//TAG`, o que pode ser substituído por `//*` em locais que possuem outras referências únicas
+
+Chamamos de seletor Tag, ID, Class, etc
+
+`Seletor A / seletor B` retorna o Seletor B que é filho direto do Seletor A
+
+`Seletor A // seletor B` retorna o Seletor B que é filho do Seletor A, não importando se é direto.
+
+href, alt, src são atributos e quando precisamos obter seus valores devemos utilizar `@nome_do_atributo`  
+
+
 
