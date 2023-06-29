@@ -148,19 +148,9 @@ https://www.portalzuk.com.br/imovel/sp/sao-paulo/bras/avenida-alcantara-machado-
 
 ![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/6d86234c-0c4f-4f67-9596-bf992737bad4)
 
-
-
-
-
-
-
-
-
-
-
 #### Quando queremos capturar um elemento dentro de um vetor, ou seja, quando existem vários elementos com o mesmo seletor e queremos uma posição específica devemos utilizar `[position()=n]` ou apenas [n] onde o n é a posição desejada
 
-## Funções de Pesquisa e Deslocamento
+## Funções de Pesquisa
 
 ``` html
 <ul class="card-action-items">
@@ -195,7 +185,24 @@ https://www.portalzuk.com.br/imovel/sp/sao-paulo/bras/avenida-alcantara-machado-
 
 //ul[.//div[contains(text(),'Lance m')]]
 
-![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/e0180f33-cde3-4a8a-a0e8-0aadb6515f32)
+![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/39086913-362a-4d65-b61d-6e1479fa9c57)
+
+//span[contains(text(),'Leil')]
+
+![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/40e9a4de-7658-4746-8325-51f841803a38)
+
+//ul[@class = 'card-action-items']//span[contains(text(),'Leil')]
+
+![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/8155d12b-e6db-4004-9106-39b7781d50b4)
+
+![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/a317c7d5-c53d-4c67-9cc1-541ccf2ced37)
+
+
+
+
+
+
+## Funções de Deslocamento
 
 #### O operador /.. é usado para navegar para o elemento pai direto. Portanto, essa expressão XPath selecionará o elemento div pai do div que contém o texto "1º Leilão:".
 
