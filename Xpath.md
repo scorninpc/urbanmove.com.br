@@ -22,7 +22,7 @@ https://www.portalzuk.com.br/imovel/sp/sao-paulo/bras/avenida-alcantara-machado-
 
 //*[@id = 'maior-lance-vlr']
 
-### Capturando um Atributo
+### Capturando um Atributo de Filhos
 ```html
 <figure class="box-action-bank">
 <a href="https://www.portalzuk.com.br/leilao-de-imoveis/v/leilao-judicial-sao-paulo-tjsp"> 
@@ -36,7 +36,9 @@ https://www.portalzuk.com.br/imovel/sp/sao-paulo/bras/avenida-alcantara-machado-
 
 //*[@class="box-action-bank"]/a/img/@src
 
-//figure[@class="box-action-bank"]//@src
+//figure[@class="box-action-bank"]//img/@src
 
 //figure[@class="box-action-bank"]//@alt
+
+< asdas > 
 
