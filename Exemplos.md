@@ -1,7 +1,7 @@
 # Exemplos xPath
 
 ## Básico
-//*[@id= 'Leilão'] (ID)
+//*[@id= 'Leilão'] <ID>
 
 //*[@class = 'Leilão'] (Classe)
 
