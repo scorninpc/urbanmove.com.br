@@ -30,25 +30,15 @@ normalize-space(//*[@id= 'Leilão'])
 
 ### Outros
 
-#### Pai
+Pai: /*[@id= 'Leilão']/.. 
 
-//*[@id= 'Leilão']/.. 
+Filho direto: //*[@id= 'Leilão']/div 
 
-#### Filho direto
+Filho: /*[@id= 'Leilão']/div 
 
-//*[@id= 'Leilão']/div 
+Vetor: //*[@id= 'Leilão'][2] 
 
-#### Filho
-
-//*[@id= 'Leilão']/div 
-
-#### Vetor
-
-//*[@id= 'Leilão'][2] 
-
-#### Atributo
-
-//*[@id= 'Leilão']/@src
+Atributo: //*[@id= 'Leilão']/@src
 
 //*[@id= 'Leilão'][2]/..//img/@src
 
