@@ -3,7 +3,8 @@
 ## Básico
 //*[@id= 'Leilão'] `ID``sdfsfdsdfsdfs` 
 
-//*[@class = 'Leilão'] (Classe)
+//*[@class = 'Leilão'] 
+(Classe)
 
 //span[contains(text(),'Leilão')] (Contém Palavra)
 
