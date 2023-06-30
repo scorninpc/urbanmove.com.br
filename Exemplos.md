@@ -14,9 +14,9 @@
 
 #### Retorna o irmão
 
-//span[contains(text(),'Leilão')]/following-sibling::spam 
+//span[contains(text(),'Leilão')]/following-sibling::text()
 
-//span[contains(text(),'Leilão')]/preceding-sibling::text()[3]
+//span[contains(text(),'Leilão')]/preceding-sibling::spam[3]
 
 ### Texto
 
