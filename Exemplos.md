@@ -12,11 +12,11 @@
 
 //*[contains(@class,'Leilão')]
 
-#### Retorna o irmão que é um spam
+#### Retorna o irmão
 
 //span[contains(text(),'Leilão')]/following-sibling::spam 
 
-//span[contains(text(),'Leilão')]/following-sibling::text() 
+//span[contains(text(),'Leilão')]/preceding-sibling::text()[3]
 
 ### Texto
 
@@ -34,7 +34,7 @@ Pai: /*[@id= 'Leilão']/..
 
 Filho direto: //*[@id= 'Leilão']/div 
 
-Filho: /*[@id= 'Leilão']/div 
+Filho: /*[@id= 'Leilão']//div 
 
 Vetor: //*[@id= 'Leilão'][2] 
 
