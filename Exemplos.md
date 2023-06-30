@@ -1,17 +1,19 @@
 # Exemplos xPath
 
 ## Básico
+
+### ID
 //*[@id= 'Leilão'] 
 
-(ID) 
+### Classe
 
 //*[@class = 'Leilão'] 
 
-(Classe)
+### Contém Palavra
 
 //span[contains(text(),'Leilão')] 
 
-(Contém Palavra)
+
 
 //span[contains(text(),'Leilão')]/following-sibling::spam 
 
