@@ -1,16 +1,25 @@
 # Exemplos xPath
 
 ## Básico
-//*[@id= 'Leilão'] `ID``sdfsfdsdfsdfs` 
+//*[@id= 'Leilão'] 
+
+(ID) 
 
 //*[@class = 'Leilão'] 
+
 (Classe)
 
-//span[contains(text(),'Leilão')] (Contém Palavra)
+//span[contains(text(),'Leilão')] 
 
-//span[contains(text(),'Leilão')]/following-sibling::spam (Retorna o irmão que é um spam)
+(Contém Palavra)
 
-//span[contains(text(),'Leilão')]/following-sibling::text() (Retorna o irmão que é um texto)
+//span[contains(text(),'Leilão')]/following-sibling::spam 
+
+(Retorna o irmão que é um spam)
+
+//span[contains(text(),'Leilão')]/following-sibling::text() 
+
+(Retorna o irmão que é um texto)
 
 
 ## Texto
