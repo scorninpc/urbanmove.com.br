@@ -1,30 +1,24 @@
 # Exemplos xPath
 
-## Básico
+### Básico
 
-### ID
 //*[@id= 'Leilão'] 
-
-### Classe
 
 //*[@class = 'Leilão'] 
 
-### Contém Palavra
-
 //span[contains(text(),'Leilão')] 
 
+#### Pesquisa o texto no nome das classes
 
+//*[contains(@class,'Leilão')]
+
+#### Retorna o irmão que é um spam
 
 //span[contains(text(),'Leilão')]/following-sibling::spam 
 
-(Retorna o irmão que é um spam)
-
 //span[contains(text(),'Leilão')]/following-sibling::text() 
 
-(Retorna o irmão que é um texto)
-
-
-## Texto
+### Texto
 
 substring-after(//*[@id= 'Leilão'], 'R$')
 
@@ -36,14 +30,26 @@ normalize-space(//*[@id= 'Leilão'])
 
 ## Outros
 
-//*[@id= 'Leilão']/.. (Pai)
+#### Pai
 
-//*[@id= 'Leilão']/div (Filho direto)
+//*[@id= 'Leilão']/.. 
 
-//*[@id= 'Leilão']/div (Filho)
+#### Filho direto
 
-//*[@id= 'Leilão'][2] (Vetor)
+//*[@id= 'Leilão']/div 
 
-//*[@id= 'Leilão']/@src (Atributo)
+#### Filho
+
+//*[@id= 'Leilão']/div 
+
+#### Vetor
+
+//*[@id= 'Leilão'][2] 
+
+#### Atributo
+
+//*[@id= 'Leilão']/@src
 
 //*[@id= 'Leilão'][2]/..//img/@src
+
+
