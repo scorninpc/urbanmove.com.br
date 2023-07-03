@@ -31,6 +31,8 @@ endereço dentro de descrição
 dr leiloes
 endereço dentro de descrição
 
+Sfrazao	www.sfrazao.com.br
+
 ### Em andamento
 
 Frazaoleiloes	www.frazaoleiloes.com.br
@@ -68,8 +70,6 @@ Comprei.Pgfn	https://comprei.pgfn.gov.br/anuncio/detalhe/1654
 Fabioleiloes	www.fabioleiloes.com.br
 
 Rmcleiloes	www.rmcleiloes.com.br
-
-Sfrazao	www.sfrazao.com.br
 
 Drleiloes	www.drleiloes.com.br
 
