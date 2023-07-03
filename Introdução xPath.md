@@ -1,6 +1,4 @@
-# XPath
-
-# Exemplos Práticos
+# Introdução xPath
 
 # Funções Básicas 
 
