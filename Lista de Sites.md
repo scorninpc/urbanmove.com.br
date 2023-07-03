@@ -86,7 +86,7 @@ Leiloesjudiciaisrs	www.leiloesjudiciaisrs.com.br
 Spencerleiloes	https://spencerleiloes.com.br/
 
 
-## Gabriel
+## 02
 
 ### Conferido
 
@@ -94,32 +94,29 @@ Spencerleiloes	https://spencerleiloes.com.br/
 
 ### Em andamento
 
-Webleiloes	www.webleiloes.com.br
+Destakleiloes www.destakleiloes.com.br
 
-Destakleiloes	www.destakleiloes.com.br
+Psnleiloes www.psnleiloes.com.br
 
-Psnleiloes	www.psnleiloes.com.br
+judhastas https://www.judhastas.com.br/externo/lote/24052/gleba-de-terras-22-526-86m-no
 
-Biasileiloes	www.biasileiloes.com.br
+Fidalgoleiloes https://www.fidalgoleiloes.com.br/lote.php?idLote=50657
 
-judhastas	https://www.judhastas.com.br/externo/lote/24052/gleba-de-terras-22-526-86m-no
+Vivaleiloes www.vivaleiloes.com.br
 
-Fidalgoleiloes	https://www.fidalgoleiloes.com.br/lote.php?idLote=50657
+Mgl www.mgl.com.br
 
-Vivaleiloes	www.vivaleiloes.com.br
+Cravoleiloes www.cravoleiloes.com.br
 
-Mgl	www.mgl.com.br
+Leje www.leje.com.br
 
-Cravoleiloes	www.cravoleiloes.com.br
+Oleiloes https://oleiloes.com.br/
 
-Leje	www.leje.com.br
+Moraesleiloes www.moraesleiloes.com.br
 
-Oleiloes	https://oleiloes.com.br/
+Lut https://www.lut.com.br/lote/leilao/97662
 
-Moraesleiloes	www.moraesleiloes.com.br
+Jikalleiloes www.jikalleiloes.com.br
 
-Lut	https://www.lut.com.br/lote/leilao/97662
-
-Jikalleiloes	www.jikalleiloes.com.br
 
 
