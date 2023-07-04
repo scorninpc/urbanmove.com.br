@@ -17,27 +17,27 @@ www.gilsonleiloes.com.br	Gilsonleiloes
 
 ### Josh
 
-www.leilaovip.com.br	Leilaovip
+www.leilaovip.com.br	Leilaovip - OK
 
-https://leiloariasmart.com.br/imovel/130	leiloariasmart
+https://leiloariasmart.com.br/imovel/130	leiloariasmart - OK
 
-https://mercado.bomvalor.com.br/judicial/	Mercado.Bomvalor
+https://mercado.bomvalor.com.br/judicial/	Mercado.Bomvalor - ERRO
 
-www.superbid.net	Superbid
+www.superbid.net	Superbid - ERRO
 
-www.alfaleiloes.com	Alfaleiloes
+www.alfaleiloes.com	Alfaleiloes - OK
 
-www.megaleiloes.com.br	Megaleiloes
+www.megaleiloes.com.br	Megaleiloes - ERRO
 
-https://topoleiloes.com.br/	Topoleiloes
+https://topoleiloes.com.br/	Topoleiloes - ERRO
 
-www.frazaoleiloes.com.br	Frazaoleiloes
+www.frazaoleiloes.com.br	Frazaoleiloes - ERRO
 
-www.jeleiloes.com.br	Jeleiloes
+www.jeleiloes.com.br	Jeleiloes - ERRO
 
-www.leilaobrasil.com.br	Leilaobrasil
+www.leilaobrasil.com.br	Leilaobrasil - OK
 
-www.lancejudicial.com.br	Lancejudicial
+www.lancejudicial.com.br	Lancejudicial - OK (Arrumar Valor Segunda Praça)
 
 https://resale.com.br/imovel/IDR176284	resale
 
