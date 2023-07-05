@@ -1,5 +1,37 @@
 # Lista de Sites
 
+### Anterior
+
+Zuk - Ok
+
+Biasi - Ok
+
+Brame - Ok
+
+Agostinho - Ok
+
+argonetworkleiloes.com.br - Erro - Ajax em Branco
+
+webleiloes.com.br - Errp Cloudflare
+
+d1lance.com.br - Erro - Cloudflare
+
+destakleiloes.com.br - Erro - Cloudflare
+
+AMLeiloeiro.com.br - Erro - Cloudflare
+
+agsleiloes.com.br - Erro - Cloudflare
+
+leilaooficialonline.com.br - Erro - Cloudflare
+
+oaleiloes.com.br - Erro - Ajax
+
+gaialeiloes.com.br - Erro - Ajax
+
+franklinleiloes.com - Erro - Cloudflare
+
+felipefrazao.com.br - Erro - Internal server error
+
 ### Josh
 
 www.leilaovip.com.br	Leilaovip - OK
