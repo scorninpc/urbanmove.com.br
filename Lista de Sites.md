@@ -22,7 +22,7 @@ www.jeleiloes.com.br	Jeleiloes - ERRO
 
 www.leilaobrasil.com.br	Leilaobrasil - OK
 
-www.lancejudicial.com.br	Lancejudicial - OK (Arrumar Valor Segunda Praça)
+www.lancejudicial.com.br	Lancejudicial - OK
 
 https://resale.com.br/imovel/IDR176284	resale
 
@@ -74,6 +74,117 @@ www.leiloesjudiciaisrs.com.br	Leiloesjudiciaisrs
 https://spencerleiloes.com.br/	Spencerleiloes
 
 www.gilsonleiloes.com.br	Gilsonleiloes
+
+### LOTE 01
+
+LOTE 01	Casareisleiloes	www.casareisleiloes.com.br
+		
+LOTE 01	Multipliqueleiloes	www.multipliqueleiloes.com.br
+		
+LOTE 01	Saraivaleiloes	www.saraivaleiloes.com.br
+		
+LOTE 01	Legisleiloes	www.legisleiloes.com.br
+
+LOTE 01	Picellileiloes	www.picellileiloes.com.br
+
+LOTE 01	Satoleiloes	www.satoleiloes.com.br
+
+LOTE 01	Satoleiloes	https://satoleiloes.com.br/externo/
+
+LOTE 01	Leilaooficialonline	https://www.leilaooficialonline.com.br/lote/imovel-comercial-880m/1786/
+
+LOTE 01	Freitasleiloeiro	www.freitasleiloeiro.com.br
+
+LOTE 01	Vendasjudiciais	https://www.vendasjudiciais.com.br/lote/direitos-sala-1124-freguesia-da-lagoa/83/
+
+### LOTE 02
+
+LOTE 02	Hastavip	www.hastavip.com.br
+
+LOTE 02	Iniciativabr	www.iniciativabr.com
+
+LOTE 02	Sodresantoro	www.sodresantoro.com.br
+
+LOTE 02	Teza	www.teza.com.br
+
+LOTE 02	Delanoleiloes	https://www.delanoleiloes.com.br/externo/lote/23485/terrenos-em-santa-rosa-de
+
+LOTE 02	Pecinileiloes	www.pecinileiloes.com.br
+
+LOTE 02	Comprei.Pgfn	https://comprei.pgfn.gov.br/anuncio/detalhe/1654
+
+LOTE 02	Fabioleiloes	www.fabioleiloes.com.br
+
+LOTE 02	Rmcleiloes	www.rmcleiloes.com.br
+
+LOTE 02	Lancenoleilao	www.lancenoleilao.com.br
+
+### LOTE 03
+
+LOTE 03	Calilleiloes	www.calilleiloes.com.br
+
+LOTE 03	Fvleiloes	https://www.fvleiloes.com.br/lotes/657-03-casa-area-total-1-960m-santo-amaro
+
+LOTE 03	Krobelleiloes	https://www.krobelleiloes.com.br/pregao/62314d22de807a0c2a4f5eaf/62314de29c91420b77754394
+
+LOTE 03	Mirandacarvalholeiloes	www.mirandacarvalholeiloes.com.br
+
+LOTE 03	Saleiloes	www.saleiloes.com.br
+
+LOTE 03	Startupleiloes	www.startupleiloes.com.br
+
+LOTE 03	Arremax	https://www.arremax.com.br/lote/area-de-628572-m/1038/
+
+LOTE 03	Centraljudicial	www.centraljudicial.com.br
+
+LOTE 03	Leiloes	www.leiloes.com.br
+
+LOTE 03	Mazzollileiloes	https://www.mazzollileiloes.com.br/pregao/64404831a7d0d08893753302/64404876a7d0d08893753326
+
+### LOTE 04
+
+LOTE 04	Amaralleiloes	www.amaralleiloes.com.br
+
+LOTE 04	Arenaleilao	www.arenaleilao.com.br
+
+LOTE 04	Cidafixerleiloes	www.cidafixerleiloes.com.br
+
+LOTE 04	Fabiobarbosaleiloes	www.fabiobarbosaleiloes.com.br
+
+LOTE 04	Giordanoleiloes	www.giordanoleiloes.com.br
+
+LOTE 04	Nakakogueleiloes	www.nakakogueleiloes.com.br
+
+LOTE 04	Rioleiloes	www.rioleiloes.com.br
+
+LOTE 04	Douglasleiloeiro	www.douglasleiloeiro.com.br
+
+LOTE 04	Fabianoayuppleiloeiro	https://fabianoayuppleiloeiro.com.br/
+
+LOTE 04	Fbleiloes	www.fbleiloes.com.br
+
+### LOTE 05
+
+LOTE 05	Fgleiloes	https://www.fgleiloes.com.br/venda-direta/bem_id/30
+
+LOTE 05	Grupoarremateleiloes	www.grupoarremateleiloes.com.br
+
+LOTE 05	Impactoleiloes	https://www.impactoleiloes.com.br/lotes/211-1-lote-1-imovel-esquina-comercial-e-residencial-548m-artur-alvim
+
+LOTE 05	Leiloesrei	www.leiloesrei.com.br
+
+LOTE 05	Mauriciomarizleiloes	https://www.mauriciomarizleiloes.com.br/leilao/detalhe_leilao/71#conteudo
+
+LOTE 05	tribunaleiloes	https://www.tribunaleiloes.com.br/item/133/detalhes?page=1
+
+LOTE 05	123Leiloes	www.123leiloes.com.br
+
+LOTE 05	Agleiloes	www.agleiloes.com.br
+
+LOTE 05	Alleiloes	https://alleiloes.com.br/lote/733/imovel-situado-na-rua-sete-de-setembro-no-270-em-colombo-pr-objeto-da-matricula-no-33310-do-cartorio-de-registro-de-imoveis-de-colombo-pr
+
+LOTE 05	Apiceleiloes	https://apiceleiloes.com.br/
+
 
 
 
