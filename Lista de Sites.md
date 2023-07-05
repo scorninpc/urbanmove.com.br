@@ -38,19 +38,19 @@ www.leilaovip.com.br	Leilaovip - OK
 
 https://leiloariasmart.com.br/imovel/130	leiloariasmart - OK
 
-https://mercado.bomvalor.com.br/judicial/	Mercado.Bomvalor - ERRO
+https://mercado.bomvalor.com.br/judicial/	Mercado.Bomvalor - Erro - Ajax em Branco
 
-www.superbid.net	Superbid - ERRO
+www.superbid.net	Superbid - Erro - Internal server error
 
 www.alfaleiloes.com	Alfaleiloes - OK
 
-www.megaleiloes.com.br	Megaleiloes - ERRO
+www.megaleiloes.com.br	Megaleiloes - Erro - Internal server error
 
-https://topoleiloes.com.br/	Topoleiloes - ERRO
+https://topoleiloes.com.br/	Topoleiloes - Erro - Ajax em Branco
 
-www.frazaoleiloes.com.br	Frazaoleiloes - ERRO
+www.frazaoleiloes.com.br	Frazaoleiloes - Tentar Novamente
 
-www.jeleiloes.com.br	Jeleiloes - ERRO
+www.jeleiloes.com.br	Jeleiloes - Tentar Novamente
 
 www.leilaobrasil.com.br	Leilaobrasil - OK
 
