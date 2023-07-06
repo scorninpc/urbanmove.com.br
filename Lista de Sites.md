@@ -80,11 +80,11 @@ www.cravoleiloes.com.br	Cravoleiloes - OK
 
 www.leje.com.br	Leje - Erro não carrega os dados
 
-https://oleiloes.com.br/ Oleiloes - OK - Erro tela branca e arrumar preço leilão único
+https://oleiloes.com.br/ Oleiloes - Erro - Erro tela branca - seletores concluido - arrumar preço leilão único
 
 www.moraesleiloes.com.br Moraesleiloes - OK
 
-https://www.lut.com.br/lote/leilao/97662 Lut - OK - Erro Status
+https://www.lut.com.br/lote/leilao/97662 Lut - Erro - Tela Branca - seletores concluido
 
 www.jikalleiloes.com.br	Jikalleiloes - OK
 
