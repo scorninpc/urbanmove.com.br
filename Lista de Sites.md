@@ -107,13 +107,13 @@ https://spencerleiloes.com.br/	Spencerleiloes
 
 www.gilsonleiloes.com.br	Gilsonleiloes
 
-### LOTE 01
+### Marcos LOTE 01
 
-LOTE 01	Casareisleiloes	www.casareisleiloes.com.br
+LOTE 01	Casareisleiloes	www.casareisleiloes.com.br Cloudflare
 		
-LOTE 01	Multipliqueleiloes	www.multipliqueleiloes.com.br
+LOTE 01	Multipliqueleiloes	www.multipliqueleiloes.com.br Cloudflare
 		
-LOTE 01	Saraivaleiloes	www.saraivaleiloes.com.br
+LOTE 01	Saraivaleiloes	www.saraivaleiloes.com.br ok
 		
 LOTE 01	Legisleiloes	www.legisleiloes.com.br
 
