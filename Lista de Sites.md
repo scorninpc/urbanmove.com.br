@@ -76,21 +76,21 @@ www.vivaleiloes.com.br	Vivaleiloes - Erro
 
 www.mgl.com.br	Mgl - CLOUFLARE
 
-www.cravoleiloes.com.br	Cravoleiloes
+www.cravoleiloes.com.br	Cravoleiloes - OK
 
-www.leje.com.br	Leje
+www.leje.com.br	Leje - Erro não carrega os dados
 
-https://oleiloes.com.br/	Oleiloes
+https://oleiloes.com.br/ Oleiloes - OK - Erro tela branca e arrumar preço leilão único
 
-www.moraesleiloes.com.br	Moraesleiloes
+www.moraesleiloes.com.br Moraesleiloes - OK
 
-https://www.lut.com.br/lote/leilao/97662	Lut
+https://www.lut.com.br/lote/leilao/97662 Lut - OK - Erro Status
 
-www.jikalleiloes.com.br	Jikalleiloes
+www.jikalleiloes.com.br	Jikalleiloes - OK
 
-https://www.sublimeleiloes.com.br/lote/sobrado-em-campinas/2322/	Sublimeleiloes
+https://www.sublimeleiloes.com.br/lote/sobrado-em-campinas/2322/ 	Sublimeleiloes - Erro Ajax 
   
-www.paulobotelholeiloeiro.com.br	Paulobotelholeiloeiro
+www.paulobotelholeiloeiro.com.br	Paulobotelholeiloeiro - OK - Erro ao coletar imagem (Imagem não carrega no Preview)
 
 https://imoveis.bancointer.com.br/imovel/72910992776583fb04c6a9069945a3e7734ad963.html	Imoveis.Bancointer
 
