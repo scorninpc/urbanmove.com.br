@@ -330,6 +330,9 @@ normalize-space(string)
 ![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/114b4480-9e5f-45fe-a89a-3a57315bf0dc)
 
 ## Outras Funções
+
+https://www.macoratti.net/vb_xpath.htm
+
 #### Outras Funções de String
 
 translate(string, caracteres-de, caracteres-para): Substitui caracteres na string especificada com base em uma tabela de tradução.
