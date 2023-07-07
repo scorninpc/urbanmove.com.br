@@ -109,25 +109,25 @@ www.gilsonleiloes.com.br	Gilsonleiloes - OK
 
 ### Marcos LOTE 01
 
-LOTE 01	Casareisleiloes	www.casareisleiloes.com.br Cloudflare
+01	Casareisleiloes	www.casareisleiloes.com.br - Cloudflare
 		
-LOTE 01	Multipliqueleiloes	www.multipliqueleiloes.com.br Cloudflare
+LOTE 01	Multipliqueleiloes	www.multipliqueleiloes.com.br - Cloudflare
 		
-LOTE 01	Saraivaleiloes	www.saraivaleiloes.com.br ok
+LOTE 01	Saraivaleiloes	www.saraivaleiloes.com.br Ok - pendente - Sem Endereço
 		
-LOTE 01	Legisleiloes	www.legisleiloes.com.br
+LOTE 01	Legisleiloes	www.legisleiloes.com.br Cloudflare - 
 
-LOTE 01	Picellileiloes	www.picellileiloes.com.br
-
-LOTE 01	Satoleiloes	www.satoleiloes.com.br
+LOTE 01	Picellileiloes	www.picellileiloes.com.br - Ok - Links precisam ser tratados - Tipo de leilao erro
+ -
+LOTE 01	Satoleiloes	www.satoleiloes.com.br - Ajax em branco
 
 LOTE 01	Satoleiloes	https://satoleiloes.com.br/externo/
 
-LOTE 01	Leilaooficialonline	https://www.leilaooficialonline.com.br/lote/imovel-comercial-880m/1786/
+LOTE 01	Leilaooficialonline	https://www.leilaooficialonline.com.br/ - Cloudflare
 
-LOTE 01	Freitasleiloeiro	www.freitasleiloeiro.com.br
+LOTE 01	Freitasleiloeiro	www.freitasleiloeiro.com.br - Erro - Alguns comandados funcionam no console do navegador, mas não funcionam no painel
 
-LOTE 01	Vendasjudiciais	https://www.vendasjudiciais.com.br/lote/direitos-sala-1124-freguesia-da-lagoa/83/
+LOTE 01	Vendasjudiciais	https://www.vendasjudiciais.com.br/ - Erro - Alguns comandados funcionam no console do navegador, mas não funcionam no painel
 
 ### Breno LOTE 02
 
@@ -195,7 +195,7 @@ LOTE 04	Fabianoayuppleiloeiro	https://fabianoayuppleiloeiro.com.br/
 
 LOTE 04	Fbleiloes	www.fbleiloes.com.br
 
-### LOTE 05
+### Marcos LOTE 05
 
 LOTE 05	Fgleiloes	https://www.fgleiloes.com.br/venda-direta/bem_id/30
 
