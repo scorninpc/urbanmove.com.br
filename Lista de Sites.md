@@ -117,8 +117,8 @@ LOTE 01	Saraivaleiloes	www.saraivaleiloes.com.br Ok - pendente - Sem Endereço
 		
 LOTE 01	Legisleiloes	www.legisleiloes.com.br Cloudflare - 
 
-LOTE 01	Picellileiloes	www.picellileiloes.com.br - Ok - Links precisam ser tratados - Tipo de leilao erro
- -
+#### LOTE 01	Picellileiloes	www.picellileiloes.com.br - Ok - Links precisam ser tratados - Tipo de leilao erro
+ 
 LOTE 01	Satoleiloes	www.satoleiloes.com.br - Ajax em branco
 
 LOTE 01	Satoleiloes	https://satoleiloes.com.br/externo/
