@@ -117,7 +117,7 @@ LOTE 01	Saraivaleiloes	www.saraivaleiloes.com.br Ok - pendente - Sem Endereço
 		
 LOTE 01	Legisleiloes	www.legisleiloes.com.br Cloudflare - 
 
-LOTE 01	Picellileiloes	www.picellileiloes.com.br - Ok - Links precisam ser tratados - Tipo de leilao erro
+LOTE 01	Picellileiloes	www.picellileiloes.com.br - Ok - Links precisam ser tratados -
  
 LOTE 01	Satoleiloes	www.satoleiloes.com.br - Ajax em branco
 
@@ -197,11 +197,11 @@ LOTE 04	Fbleiloes	www.fbleiloes.com.br
 
 ### Marcos LOTE 05
 
-LOTE 05	Fgleiloes	https://www.fgleiloes.com.br/venda-direta/bem_id/30
+LOTE 05	Fgleiloes	https://www.fgleiloes.com.br/venda-direta/bem_id/30 - Site não abre
 
-LOTE 05	Grupoarremateleiloes	www.grupoarremateleiloes.com.br
+LOTE 05	Grupoarremateleiloes	www.grupoarremateleiloes.com.br - Cloudflare
 
-LOTE 05	Impactoleiloes	https://www.impactoleiloes.com.br/lotes/211-1-lote-1-imovel-esquina-comercial-e-residencial-548m-artur-alvim
+LOTE 05	Impactoleiloes	https://www.impactoleiloes.com.br/ - Pendente - sem endereço - links precisam ser tratados -
 
 LOTE 05	Leiloesrei	www.leiloesrei.com.br
 
@@ -216,6 +216,7 @@ LOTE 05	Agleiloes	www.agleiloes.com.br
 LOTE 05	Alleiloes	https://alleiloes.com.br/lote/733/imovel-situado-na-rua-sete-de-setembro-no-270-em-colombo-pr-objeto-da-matricula-no-33310-do-cartorio-de-registro-de-imoveis-de-colombo-pr
 
 LOTE 05	Apiceleiloes	https://apiceleiloes.com.br/
+
 
 
 
