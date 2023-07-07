@@ -105,7 +105,7 @@ www.leiloesjudiciaisrs.com.br	Leiloesjudiciaisrs - OK
 
 https://spencerleiloes.com.br/	Spencerleiloes - OK
 
-www.gilsonleiloes.com.br	Gilsonleiloes
+www.gilsonleiloes.com.br	Gilsonleiloes - OK
 
 ### Marcos LOTE 01
 
