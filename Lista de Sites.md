@@ -90,20 +90,20 @@ www.jikalleiloes.com.br	Jikalleiloes - OK
 
 https://www.sublimeleiloes.com.br/lote/sobrado-em-campinas/2322/ 	Sublimeleiloes - Erro Ajax 
   
-www.paulobotelholeiloeiro.com.br	Paulobotelholeiloeiro - OK - Erro ao coletar imagem (Imagem não carrega no Preview)
+www.paulobotelholeiloeiro.com.br	Paulobotelholeiloeiro - OK 
 
-https://imoveis.bancointer.com.br/imovel/72910992776583fb04c6a9069945a3e7734ad963.html	Imoveis.Bancointer
+https://imoveis.bancointer.com.br/imovel/72910992776583fb04c6a9069945a3e7734ad963.html	Imoveis.Bancointer - OK
 
 ### Josh 02
-https://vegasleiloes.com.br/item/4976/detalhes?page=1	vegasleiloes
+https://vegasleiloes.com.br/item/4976/detalhes?page=1	vegasleiloes - OK
 
-www.sfrazao.com.br	Sfrazao
+www.sfrazao.com.br	Sfrazao - OK
 
-www.drleiloes.com.br	Drleiloes
+www.drleiloes.com.br	Drleiloes - OK
 
-www.leiloesjudiciaisrs.com.br	Leiloesjudiciaisrs
+www.leiloesjudiciaisrs.com.br	Leiloesjudiciaisrs - OK
 
-https://spencerleiloes.com.br/	Spencerleiloes
+https://spencerleiloes.com.br/	Spencerleiloes - OK
 
 www.gilsonleiloes.com.br	Gilsonleiloes
 
