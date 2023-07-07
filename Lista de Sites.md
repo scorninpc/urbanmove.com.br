@@ -151,7 +151,7 @@ LOTE 02	Rmcleiloes	www.rmcleiloes.com.br
 
 LOTE 02	Lancenoleilao	www.lancenoleilao.com.br
 
-### LOTE 03
+### Lucas LOTE 03
 
 LOTE 03	Calilleiloes	www.calilleiloes.com.br
 
@@ -173,7 +173,7 @@ LOTE 03	Leiloes	www.leiloes.com.br
 
 LOTE 03	Mazzollileiloes	https://www.mazzollileiloes.com.br/pregao/64404831a7d0d08893753302/64404876a7d0d08893753326
 
-### LOTE 04
+### Josh LOTE 04
 
 LOTE 04	Amaralleiloes	www.amaralleiloes.com.br
 
