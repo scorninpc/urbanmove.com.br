@@ -1,7 +1,6 @@
 # Documentação
 
 ## Tutoriais
-Github: https://youtu.be/cFgAEJdoYO8
 
 Cadastro de sites: https://youtu.be/q2n6GNkcuLE
 
@@ -39,4 +38,17 @@ Caso seja identificado um erro de funcionamento que afete vários sites, abrir u
 
 ## Erros no preview
 
-Quando clicar no pre
+Quando clicar no preview do link que está testando (olho ao lado do link) e der erro no retorno da página, testar se as variáveis realmente não estão funcionando, neste caso, colocar o hold no nome do site e relatar erro na lista de controle.
+
+## Ajax
+
+Sempre que abrir o primeiro link de leiloeiro para testar, desabilitar o  javascript clicando nas configurações do console do navegaor (engrenagem a direita, ai lá no final... pelo menos no chrome) e atualizar a página.
+
+Caso alguma informação não seja mostrada, é necessário alterar o cadastro do leiloeiro para Tipo de Paginação: AJAX e Delay para 2, ou testar delay maior caso ache necessário
+
+![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/b13358d5-7531-47d7-8d2b-658f06099586)
+
+
+![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/39fcc1ea-29a7-4f6a-b0fb-866bf3f32bb2)
+
+
