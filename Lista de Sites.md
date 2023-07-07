@@ -129,11 +129,11 @@ LOTE 01	Freitasleiloeiro	www.freitasleiloeiro.com.br
 
 LOTE 01	Vendasjudiciais	https://www.vendasjudiciais.com.br/lote/direitos-sala-1124-freguesia-da-lagoa/83/
 
-### LOTE 02
+### Breno LOTE 02
 
-LOTE 02	Hastavip	www.hastavip.com.br
+LOTE 02	Hastavip	www.hastavip.com.br - OK
 
-LOTE 02	Iniciativabr	www.iniciativabr.com
+LOTE 02	Iniciativabr	www.iniciativabr.com - OK
 
 LOTE 02	Sodresantoro	www.sodresantoro.com.br
 
