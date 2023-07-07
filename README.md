@@ -26,6 +26,8 @@ Quando houver problemas que restrinjam o cadastro: Z_Hold_Nome_do Leiloeiro
 
 ### Controle lista de sites
 
+(Atualização) Criada a Lista de Sites 02, quando pegar um lote, pode escrever o nome dele em cima dos links com seu nome na frente
+
 Preenchimento finalizado: - ok
 
 Preenchimento com pendência: - Pendente "especificação do campo, ou do problema"
