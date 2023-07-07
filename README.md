@@ -16,42 +16,27 @@ Exemplo 03 Brame: https://youtu.be/s_E3Vas3WjE
 
 ## Pontos importantes para efetuar o cadastro
 
-### Nomeclatura:
+### Nomeclatura Painel:
 Novo site: A_Seu_nome_Nome_do Leiloeiro
 
-Quando revisado o nome será alterado para: Z_Concluído_Nome_do Leiloeiro
+Quando revisado o nome será alterado para: R_Seu_nome_Nome_do Leiloeiro
 
-Quando testado com todos os links: Nome_do Leiloeiro
+Quando validado no banco de dados: Nome_do_Leiloeiro
 
-Quando houver problemas que restrinjam o cadastro : Z_Hold_Nome_do Leiloeiro
+Quando houver problemas que restrinjam o cadastro: Z_Hold_Nome_do Leiloeiro
 
-## Padrão de Dúvida
+### Controle lista de sites
 
-### Título:
+Preenchimento finalizado: - ok
 
-Escrever o nome do leiloeiro
+Preenchimento com pendência: - Pendente "especificação do campo, ou do problema"
 
-### Texto:
+Erro: - Erro "especificação do erro" (em branco, cloudflare, falha no servidor.... seguir o padrão que já está)
 
-1) Escrever a URL em que está sendo feito o teste
-    
-    Exemplo: https://www.d1lance.com.br/lote/sao-bernardo-do-campo-sp/5447/
-    
-![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/4958736f-da2a-4456-b673-8755014fb208)
+### Outros erros
 
-2) Escrever as observações, exemplo:
+Caso seja identificado um erro de funcionamento que afete vários sites, abrir um issue no github especificando e dando links e nomes para melhor resolver
 
-   Observação 01: O preço está com a data
+## Erros no preview
 
-   Observação 02: O endereço está na descrição
-
-4) Escrever os erros com as variável que não funcionou e o que você tentou, exmeplo:
-    
-   Erro 01: Documento01: .dg-lote-documentos-downloads
-
-5) Print da tela em que buscou a informação
-
-    Erro 01:    
-![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/9c4d9a49-9dcd-4535-8828-5a9c476fe1f9)
-
-
+Quando clicar no pre
