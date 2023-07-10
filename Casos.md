@@ -1,12 +1,21 @@
 # Casos
+
+## Informação de último lance
+Essa informação de último lance é muito importante, podem pegar mesmo que seja um texto indicando que não houve lance.
+
+Depois quando tivermos tudo rodando podemos achar imóveis que tiveram lances e melhorar o seletor.
+
+![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/e193259c-5995-4426-a96a-232e76f020f7)
+
 ## Endereço na descrição 
-Neste caso abaixo, onde o endereço não aparece em nenhum campo específico, mas está na descrição. É interessante usar o campo da descrição, ou parágrafos específicos como endereço. Normalmente o google maps retorna alguma coisa bem próxima do endereço específico.
+Neste caso abaixo, onde o endereço não aparece em nenhum campo específico, mas está na descrição. É interessante usar o campo da descrição, ou parágrafos específicos como endereço. Normalmente o google maps retorna alguma coisa bem próxima do endereço específico. Ou trataremos no back depois.
 
 ![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/24f6a049-cf4b-4c16-9021-d66bb977fe1f)
 
 ## Endereço em campos 
 
 Neste caso abaixo se pegarmos apenas o nome da rua, o maps não irá identificar, pois esta rua existe em vários municípios, precisamos de mais informação.
+
 O ideal seria pegar de cidade para frente. 
 
 ![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/829752a0-0591-4b51-b4c4-692127bc567f)
