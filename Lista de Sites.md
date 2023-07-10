@@ -195,27 +195,27 @@ LOTE 04	Fabianoayuppleiloeiro	https://fabianoayuppleiloeiro.com.br/
 
 LOTE 04	Fbleiloes	www.fbleiloes.com.br
 
-### Marcos LOTE 05
+Marcos LOTE 05
 
-LOTE 05	Fgleiloes	https://www.fgleiloes.com.br/venda-direta/bem_id/30 - Site não abre
+LOTE 05 Fgleiloes https://www.fgleiloes.com.br/ - Erro - Site não abre
 
-LOTE 05	Grupoarremateleiloes	www.grupoarremateleiloes.com.br - Cloudflare
+LOTE 05 Grupoarremateleiloes www.grupoarremateleiloes.com.br - Cloudflare
 
-LOTE 05	Impactoleiloes	https://www.impactoleiloes.com.br/ - Pendente - sem endereço - links precisam ser tratados -
+LOTE 05 Impactoleiloes https://www.impactoleiloes.com.br/ - Pendente - sem endereço - links precisam ser tratados -
 
-LOTE 05	Leiloesrei	www.leiloesrei.com.br
+LOTE 05 Leiloesrei www.leiloesrei.com.br - Erro
 
-LOTE 05	Mauriciomarizleiloes	https://www.mauriciomarizleiloes.com.br/leilao/detalhe_leilao/71#conteudo
+LOTE 05 Mauriciomarizleiloes https://www.mauriciomarizleiloes.com.br/ - Ok - links precisam ser tratados - 
 
-LOTE 05	tribunaleiloes	https://www.tribunaleiloes.com.br/item/133/detalhes?page=1
+LOTE 05 tribunaleiloes https://www.tribunaleiloes.com.br/ - Ok -
 
-LOTE 05	123Leiloes	www.123leiloes.com.br
+LOTE 05 123Leiloes www.123leiloes.com.br -  Ok - links precisam ser tratados -
 
-LOTE 05	Agleiloes	www.agleiloes.com.br
+LOTE 05 Agleiloes www.agleiloes.com.br - Pendente - sem endereço - links precisam ser tratados -
 
-LOTE 05	Alleiloes	https://alleiloes.com.br/lote/733/imovel-situado-na-rua-sete-de-setembro-no-270-em-colombo-pr-objeto-da-matricula-no-33310-do-cartorio-de-registro-de-imoveis-de-colombo-pr
+LOTE 05 Alleiloes https://alleiloes.com.br/ - Erro - em branco
 
-LOTE 05	Apiceleiloes	https://apiceleiloes.com.br/
+LOTE 05 Apiceleiloes https://apiceleiloes.com.br/ - Ok
 
 
 
