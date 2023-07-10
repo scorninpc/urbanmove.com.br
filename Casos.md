@@ -1,5 +1,5 @@
 # Casos
-
+# 10/07
 ## Informação de último lance
 Essa informação de último lance é muito importante, podem pegar mesmo que seja um texto indicando que não houve lance.
 
