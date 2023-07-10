@@ -1,5 +1,17 @@
 # Casos
 # 10/07
+
+## Nunca utilizar data de abertura, sempre encerramento
+
+...Sempre encerramento
+
+Quando o código para data de leilão único, é o mesmo da primeira praça, não precisa preencher leilão único
+
+![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/58e9dddf-f5f0-4fbe-ad0e-e174372084cd)
+
+![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/5c1eca76-5f57-4f28-8f91-922f4065d53f)
+
+
 ## Informação de último lance
 Essa informação de último lance é muito importante, podem pegar mesmo que seja um texto indicando que não houve lance.
 
