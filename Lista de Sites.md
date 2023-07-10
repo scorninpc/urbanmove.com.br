@@ -175,15 +175,15 @@ LOTE 03	Mazzollileiloes	https://www.mazzollileiloes.com.br/pregao/64404831a7d0d0
 
 ### Josh LOTE 04
 
-LOTE 04	Amaralleiloes	www.amaralleiloes.com.br
+LOTE 04	Amaralleiloes	www.amaralleiloes.com.br - OK
 
-LOTE 04	Arenaleilao	www.arenaleilao.com.br
+LOTE 04	Arenaleilao	www.arenaleilao.com.br - OK
 
-LOTE 04	Cidafixerleiloes	www.cidafixerleiloes.com.br
+LOTE 04	Cidafixerleiloes	www.cidafixerleiloes.com.br - OK
 
-LOTE 04	Fabiobarbosaleiloes	www.fabiobarbosaleiloes.com.br
+LOTE 04	Fabiobarbosaleiloes	www.fabiobarbosaleiloes.com.br - OK
 
-LOTE 04	Giordanoleiloes	www.giordanoleiloes.com.br
+LOTE 04	Giordanoleiloes	www.giordanoleiloes.com.br - OK
 
 LOTE 04	Nakakogueleiloes	www.nakakogueleiloes.com.br
 
