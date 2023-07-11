@@ -121,7 +121,7 @@ LOTE 01	Picellileiloes	www.picellileiloes.com.br - Ok - Links precisam ser trata
  
 LOTE 01	Satoleiloes	www.satoleiloes.com.br - Ajax em branco
 
-LOTE 01	Satoleiloes	https://satoleiloes.com.br/externo/
+LOTE 01	Satoleiloes	https://satoleiloes.com.br/externo/ - Ajax em branco
 
 LOTE 01	Leilaooficialonline	https://www.leilaooficialonline.com.br/ - Cloudflare
 
