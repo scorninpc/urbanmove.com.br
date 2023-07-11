@@ -159,19 +159,19 @@ LOTE 03	Fvleiloes	https://www.fvleiloes.com.br/lotes/657-03-casa-area-total-1-96
 
 LOTE 03	Krobelleiloes	https://www.krobelleiloes.com.br/pregao/62314d22de807a0c2a4f5eaf/62314de29c91420b77754394 - Erro - Ajax em Branco
 
-LOTE 03	Mirandacarvalholeiloes	www.mirandacarvalholeiloes.com.br
+LOTE 03	Mirandacarvalholeiloes	www.mirandacarvalholeiloes.com.br - Ok
 
-LOTE 03	Saleiloes	www.saleiloes.com.br
+LOTE 03	Saleiloes	www.saleiloes.com.br - Erro - Popup
 
-LOTE 03	Startupleiloes	www.startupleiloes.com.br
+LOTE 03	Startupleiloes	www.startupleiloes.com.br - Ok - pendente - Sem Endereço
 
-LOTE 03	Arremax	https://www.arremax.com.br/lote/area-de-628572-m/1038/
+LOTE 03	Arremax	https://www.arremax.com.br/lote/area-de-628572-m/1038/ - Erro - - Cloudflare
 
-LOTE 03	Centraljudicial	www.centraljudicial.com.br
+LOTE 03	Centraljudicial	www.centraljudicial.com.br - Erro - Alguns comandos funcionam no console do navegador, mas não funcionam no painel
 
-LOTE 03	Leiloes	www.leiloes.com.br
+LOTE 03	Leiloes	www.leiloes.com.br - Erro - Ajax em branco
 
-LOTE 03	Mazzollileiloes	https://www.mazzollileiloes.com.br/pregao/64404831a7d0d08893753302/64404876a7d0d08893753326
+LOTE 03	Mazzollileiloes	https://www.mazzollileiloes.com.br/pregao/64404831a7d0d08893753302/64404876a7d0d08893753326 - Erro - Ajax em branco
 
 ### Josh LOTE 04
 
