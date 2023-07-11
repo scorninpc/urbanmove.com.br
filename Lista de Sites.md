@@ -185,15 +185,15 @@ LOTE 04	Fabiobarbosaleiloes	www.fabiobarbosaleiloes.com.br - OK
 
 LOTE 04	Giordanoleiloes	www.giordanoleiloes.com.br - OK
 
-LOTE 04	Nakakogueleiloes	www.nakakogueleiloes.com.br
+LOTE 04	Nakakogueleiloes	www.nakakogueleiloes.com.br - Erro - Não carrega dados
 
-LOTE 04	Rioleiloes	www.rioleiloes.com.br
+LOTE 04	Rioleiloes	www.rioleiloes.com.br - OK
 
-LOTE 04	Douglasleiloeiro	www.douglasleiloeiro.com.br
+LOTE 04	Douglasleiloeiro	www.douglasleiloeiro.com.br - Erro - Não carrega dados
 
-LOTE 04	Fabianoayuppleiloeiro	https://fabianoayuppleiloeiro.com.br/
+LOTE 04	Fabianoayuppleiloeiro	https://fabianoayuppleiloeiro.com.br/ - Site não existe
 
-LOTE 04	Fbleiloes	www.fbleiloes.com.br
+LOTE 04	Fbleiloes	www.fbleiloes.com.br - Erro - Não carrega dados
 
 Marcos LOTE 05
 
