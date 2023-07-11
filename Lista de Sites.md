@@ -191,7 +191,7 @@ LOTE 04	Rioleiloes	www.rioleiloes.com.br - OK
 
 LOTE 04	Douglasleiloeiro	www.douglasleiloeiro.com.br - Erro - Não carrega dados
 
-LOTE 04	Fabianoayuppleiloeiro	https://fabianoayuppleiloeiro.com.br/ - Site não existe
+LOTE 04	Fabianoayuppleiloeiro	https://fabianoayuppleiloeiro.com.br/ - Site fora do ar
 
 LOTE 04	Fbleiloes	www.fbleiloes.com.br - Erro - Não carrega dados
 
