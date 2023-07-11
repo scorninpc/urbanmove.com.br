@@ -24,6 +24,8 @@ Quando validado no banco de dados: Nome_do_Leiloeiro
 
 Quando houver problemas que restrinjam o cadastro: Z_Hold_Nome_do Leiloeiro
 
+Quando o leiloeiro não possuir lotes, ou lotes alheios (gado, etc): Z_SL_Nome_do Leiloeiro
+
 ### Controle lista de sites
 
 (Atualização) Criada a Lista de Sites 02, quando pegar um lote, pode escrever o nome dele em cima dos links com seu nome na frente
