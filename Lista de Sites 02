@@ -25,16 +25,16 @@ Lote 7	Borbolaleiloes	http://borbolaleiloes.tempsite.ws/index
 ------Lote 8 - Marcos------
 Lote 8	Dutraleiloes	http://dutraleiloes.com.br/principal.htm - Erro - 403 forbidden
 Lote 8	Mfrancaleiloes	http://mfrancaleiloes.tempsite.ws/index - Ok 
-Lote 8	Suenagaleiloes	http://suenagaleiloes.com.br/
-Lote 8	Aloisiocravo	https://aloisiocravo.com.br/
-Lote 8	Bankleiloes	https://bankleiloes.com.br/
-Lote 8	Batistaleiloes	https://batistaleiloes.com.br/
-Lote 8	Dbmleiloes	https://dbmleiloes.com.br/
-Lote 8	Dedaloleiloes	https://www.dedaloleiloes.com.br/
-Lote 8	Jonasdellatonia	https://jonasdellatonia.com.br/
-Lote 8	Mundodoleilao	https://mundodoleilao.com.br/#
+Lote 8	Suenagaleiloes	http://suenagaleiloes.com.br/ - Site não possui leilão
+Lote 8	Aloisiocravo	https://aloisiocravo.com.br/ - Erro - 403 forbidden
+Lote 8	Bankleiloes	https://bankleiloes.com.br/ - Site não abre
+Lote 8	Batistaleiloes	https://batistaleiloes.com.br/ - Erro - Ajax em branco
+Lote 8	Dbmleiloes	https://dbmleiloes.com.br/ - Erro - Ajax em branco
+Lote 8	Dedaloleiloes	https://www.dedaloleiloes.com.br/ - Erro - Ajax em branco 
+Lote 8	Jonasdellatonia	https://jonasdellatonia.com.br/ - Site não possui leilão
+Lote 8	Mundodoleilao	https://mundodoleilao.com.br/ - Site não possui leilão
 
-------Lote 9 -  ------
+------Lote 9 - Marcos ------
 Lote 9	Plazaleiloes	https://plazaleiloes.com.br/
 Lote 9	Sumareleiloes	https://sumareleiloes.com.br/
 Lote 9	Venetoleiloes	https://venetoleiloes.com.br/
@@ -45,6 +45,8 @@ Lote 9	Carloferrarileiloes	www.carloferrarileiloes.com.br
 Lote 9	Iarremate	www.iarremate.com
 Lote 9	Liderleiloes	www.liderleiloes.com.br
 Lote 9	Melhorleiloes	www.melhorleiloes.com.br
+
+------Lote 10 -  ------
 Lote 10	Moralesleiloes	www.moralesleiloes.com.br
 Lote 10	Raicherleiloes	www.raicherleiloes.com.br
 Lote 10	Rigolonleiloes	www.rigolonleiloes.com.br
