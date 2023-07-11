@@ -153,11 +153,11 @@ LOTE 02	Lancenoleilao	www.lancenoleilao.com.br
 
 ### Lucas LOTE 03
 
-LOTE 03	Calilleiloes	www.calilleiloes.com.br
+LOTE 03	Calilleiloes	www.calilleiloes.com.br - Erro - Ajax em Branco
 
-LOTE 03	Fvleiloes	https://www.fvleiloes.com.br/lotes/657-03-casa-area-total-1-960m-santo-amaro
+LOTE 03	Fvleiloes	https://www.fvleiloes.com.br/lotes/657-03-casa-area-total-1-960m-santo-amaro - Ok
 
-LOTE 03	Krobelleiloes	https://www.krobelleiloes.com.br/pregao/62314d22de807a0c2a4f5eaf/62314de29c91420b77754394
+LOTE 03	Krobelleiloes	https://www.krobelleiloes.com.br/pregao/62314d22de807a0c2a4f5eaf/62314de29c91420b77754394 - Erro - Ajax em Branco
 
 LOTE 03	Mirandacarvalholeiloes	www.mirandacarvalholeiloes.com.br
 
