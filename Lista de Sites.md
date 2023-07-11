@@ -141,7 +141,7 @@ LOTE 02	Teza	www.teza.com.br - OK
 
 LOTE 02	Delanoleiloes	https://www.delanoleiloes.com.br/externo/lote/23485/terrenos-em-santa-rosa-de - Pendente - Apenas o documento não é retirado, e o código e suas variações funcionam no console
 
-LOTE 02	Pecinileiloes	www.pecinileiloes.com.br - Erro - Cloudfire
+LOTE 02	Pecinileiloes	www.pecinileiloes.com.br - Erro - CloudFlare
 
 LOTE 02	Comprei.Pgfn	https://comprei.pgfn.gov.br/anuncio/detalhe/1654 - Erro - Ajax em branco
 
@@ -149,7 +149,7 @@ LOTE 02	Fabioleiloes	www.fabioleiloes.com.br - Ok
 
 LOTE 02	Rmcleiloes	www.rmcleiloes.com.br - Ok - pendente - sem endereço e documento
 
-LOTE 02	Lancenoleilao	www.lancenoleilao.com.br
+LOTE 02	Lancenoleilao	www.lancenoleilao.com.br - Erro - CloudFlare
 
 ### Lucas LOTE 03
 
