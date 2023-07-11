@@ -1,4 +1,10 @@
 # Casos
+
+# 11/07
+
+## Nomeclatura de leiloeiros aleatórios
+Quando o leiloeiro não possuir lotes, ou lotes alheios (gado, etc): Z_SL_Nome_do Leiloeiro
+
 # 10/07
 
 ## Nunca utilizar data de abertura, sempre encerramento
