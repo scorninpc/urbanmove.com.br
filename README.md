@@ -26,7 +26,9 @@ Ai podem inserir apenas no controle "- Erro site não cadastrado", assim perdemo
 # 11/07
 
 ## Nomeclatura de leiloeiros aleatórios
-Quando o leiloeiro não possuir lotes, ou lotes alheios (gado, etc): Z_SL_Nome_do Leiloeiro
+Quando o leiloeiro não possuir lotes, ou lotes alheios (gado, livros..): Z_SL_Nome_do Leiloeiro, ou apenas inserir no controle.
+Carros e eletronicos, vamos cadastrar.
+Se tiver dúvidas, pergunte
 
 # 10/07
 
