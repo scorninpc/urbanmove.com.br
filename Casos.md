@@ -1,5 +1,16 @@
 # Casos
 
+# 12/07
+## Cadastro de leiloeiros com problema
+Como muitos sites estão apresentando erros na visualização e captação, por hora podem criar um "leiloeiro teste" com o nome de vocês: A_TESTE_Seu Nome. Lá dentro não precisa necessariamente preencher tudo sempre, podem só abrir onde coloca as variáveis, inserir o link, informações se é ajax, atualizar e testar.
+
+Para testar podem usar o ponto antes de uma classe ou # antes de um id, lembrando que só valem para quando o id ou a class não contém espaço
+
+![image](https://github.com/scorninpc/urbanmove.com.br/assets/137231287/fe4b1d23-19a5-4bfd-a273-726577b1862a)
+
+Ai podem inserir apenas no controle "- Erro site não cadastrado", assim perdemos menos tempo.
+
+
 # 11/07
 
 ## Nomeclatura de leiloeiros aleatórios
