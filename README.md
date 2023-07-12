@@ -63,7 +63,7 @@ O ideal seria pegar de cidade para frente.
 
 
 ## Data e Preço se alteram com a data do leilão
-A informação que está como text passa a ser <s>, quando vencida a data do primeiro leilão.
+A informação que está como text passa a ser `<s>`, quando vencida a data do primeiro leilão.
 
 Neste caso podemos pegar o pai e usar substring para pegar o que vem depois de R$
 
