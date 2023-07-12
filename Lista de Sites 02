@@ -6,9 +6,9 @@ Lote 6	Delttaleiloes	www.delttaleiloes.com.br - Erro - Erro - Pagina não carreg
 Lote 6	Deonizialeiloes	www.deonizialeiloes.com.br - Ok
 Lote 6	Depaulaonline	www.depaulaonline.com.br - Erro - Site não entra
 Lote 6	Kronbergleiloes	www.kronbergleiloes.com.br - Pendente - resolver erros url sql
-Lote 6	Leiloeirasilvani	https://www.leiloeirasilvani.com.br/Leilao.asp?zz=20050858201532006090001
-Lote 6	Leiloeiro.online	www.leiloeiro.online
-Lote 6	Mariaclariceleiloes	https://mariaclariceleiloes.com.br/
+Lote 6	Leiloeirasilvani	https://www.leiloeirasilvani.com.br/Leilao.asp?zz=20050858201532006090001 - Ok
+Lote 6	Leiloeiro.online	www.leiloeiro.online - Ok
+Lote 6	Mariaclariceleiloes	https://mariaclariceleiloes.com.br/ - OK
 
 ------Lote 7 - Josh------
 Lote 7	Monzonleiloes	www.monzonleiloes.com.br - Não está puxando algumas informações
@@ -71,22 +71,22 @@ Lote 11	Budanoleiloeiro	www.budanoleiloeiro.com.br
 Lote 11	Camargonet	www.camargonet.com
 
 ------Lote 12 - Breno------
-Lote 12	Canaldosleiloes	www.canaldosleiloes.com.br
-Lote 12	Casa8Leiloes	www.casa8leiloes.com.br
-Lote 12	Casaamarelaleiloes	www.casaamarelaleiloes.net.br
-Lote 12	Centrodeleiloes	www.centrodeleiloes.lel.br
-Lote 12	Chuileiloes	www.chuileiloes.com.br
-Lote 12	Cianacionalleiloes	www.cianacionalleiloes.com.br
-Lote 12	Crepaldileiloes	www.crepaldileiloes.com.br
-Lote 12	Crisleiloes	www.crisleiloes.com.br
-Lote 12	Cunhaleiloeiro	www.cunhaleiloeiro.com.br
-Lote 12	Dalricalefficorsi	www.dalricalefficorsi.com.br
+Lote 12	Canaldosleiloes	www.canaldosleiloes.com.br - Erro - SL
+Lote 12	Casa8Leiloes	www.casa8leiloes.com.br - Erro - SL
+Lote 12	Casaamarelaleiloes	www.casaamarelaleiloes.net.br - Erro - SL
+Lote 12	Centrodeleiloes	www.centrodeleiloes.lel.br - Fora do Ar
+Lote 12	Chuileiloes	www.chuileiloes.com.br - Ajax em branco
+Lote 12	Cianacionalleiloes	www.cianacionalleiloes.com.br - Site fora do ar
+Lote 12	Crepaldileiloes	www.crepaldileiloes.com.br - Erro - Pagina em branco
+Lote 12	Crisleiloes	www.crisleiloes.com.br - CloudFlare
+Lote 12	Cunhaleiloeiro	www.cunhaleiloeiro.com.br - Erro - Pagina em branco
+Lote 12	Dalricalefficorsi	www.dalricalefficorsi.com.br - Fora do ar
 
 ------Lote 13 - Breno------
-Lote 13	Dantasleiloes	www.dantasleiloes.com.br
-Lote 13	Darioleiloes	www.darioleiloes.com.br
-Lote 13	Desantileiloes	www.desantileiloes.com.br
-Lote 13	Deseulance	www.deseulance.com
+Lote 13	Dantasleiloes	www.dantasleiloes.com.br - Sem Lotes
+Lote 13	Darioleiloes	www.darioleiloes.com.br - Site sem leilão
+Lote 13	Desantileiloes	www.desantileiloes.com.br - OK
+Lote 13	Deseulance	www.deseulance.com - Erro - Não é possivel pegar os lotes
 Lote 13	Destroleiloes	www.destroleiloes.com.br
 Lote 13	Dinizmartinsleiloes	www.dinizmartinsleiloes.com.br
 Lote 13	Domingosleiloes	www.domingosleiloes.com.br
