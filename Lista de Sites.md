@@ -1,4 +1,4 @@
-# Lista de Sites
+# Lista de Sites - Obsoleto
 
 ### Anterior
 
