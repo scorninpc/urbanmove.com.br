@@ -1,6 +1,7 @@
 # Erros de Paginação
 ## 1) Prefixo pendendete
 O link na página principal está incompleto. Ex.: deveria estar www.zuk.com/leilão/001, porém está /leilão01.
+O site usa path relativo, e não absoluto. então quando pega uma imagem ou um link, só vem o caminho /xxxx/yyyy sem o dominio
 
 
 ## 2) Java
