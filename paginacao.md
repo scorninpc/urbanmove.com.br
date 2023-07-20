@@ -36,3 +36,21 @@ Podemos selecionar que esta opção é necessária.
 ## 6) Duas páginas de leilão e depois a do lote
 Exceção da exceção, desconsiderar por hora
 
+
+# Outras Implementações
+
+## Botão atualizar retornar para o mesmo lugar e não para a lista de sites
+
+## Complemento de links que estão sem prefixo
+
+## Duplicar cadastro de leiloeiro
+
+## Botão para mostrar o resultado de todos os seletores
+
+# Implementações Futuras
+
+## Leilão com multiplos lotes listados e sem link prórpio
+
+## Opção de busca de informação no pai
+
+## API para integração direta com leiloeiros
