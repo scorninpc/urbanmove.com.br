@@ -1,3 +1,4 @@
+[roteiro para novos sites](#roteiro-para-novos-sites)
 - [x] [portalzuk.com.br](#portalzukcombr)
 - [x] [jeleiloes.com.br](#jeleiloescombr)
 - [x] [megaleiloes.com.br](#megaleiloescombr)
